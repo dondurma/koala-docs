@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,ae as l}from"./chunks/framework.RRduUuAx.js";const f=JSON.parse('{"title":"Koala Docs","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"};function r(n,a,s,_,c,d){return o(),t("div",null,[...a[0]||(a[0]=[l("",2)])])}const p=e(i,[["render",r]]);export{f as __pageData,p as default};
