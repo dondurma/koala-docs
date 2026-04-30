@@ -6,11 +6,11 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     nav: [
-      { text: '简体中文', link: '/zh/' },
-      { text: '繁體中文', link: '/zh-HK/' },
-      { text: 'English', link: '/en/' },
-      { text: '日本語', link: '/ja/' },
-      { text: '한국어', link: '/ko/' },
+      { text: '简体中文', link: '/v1/zh/' },
+      { text: '繁體中文', link: '/v1/zh-HK/' },
+      { text: 'English', link: '/v1/en/' },
+      { text: '日本語', link: '/v1/ja/' },
+      { text: '한국어', link: '/v1/ko/' },
     ],
   },
 })

@@ -1,1 +1,0 @@
-import{_ as l,o,c as e,ae as r}from"./chunks/framework.RRduUuAx.js";const c=JSON.parse('{"title":"Koala 利用規約","description":"","frontmatter":{},"headers":[],"relativePath":"ja/terms.md","filePath":"ja/terms.md"}'),t={name:"ja/terms.md"};function i(n,a,p,s,h,d){return o(),e("div",null,[...a[0]||(a[0]=[r("",28)])])}const u=l(t,[["render",i]]);export{c as __pageData,u as default};
