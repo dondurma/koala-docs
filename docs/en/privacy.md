@@ -1,115 +1,111 @@
-# **考拉记账**隐私政策
+# **Koala** Privacy Policy
 
-更新日期：2026 年 04 月 24 日
+Last Updated: April 24, 2026
 
-生效日期：2026 年 04 月 24 日
+Effective Date: April 24, 2026
 
- 
+Koala (the “App”) takes your personal information seriously. This Koala Privacy Policy (the “Policy”) explains how we collect, use, store, share, and protect your personal information, as well as how you can exercise your rights.
 
-考拉记账（以下简称“本应用”）非常重视你的个人信息保护。本《Koala 隐私政策》（以下简称“本政策”）旨在说明我们如何收集、使用、存储、共享与保护你的个人信息，以及你如何行使相关权利。
+Please read and understand this Policy carefully before using the App. By tapping “Agree/Accept” or continuing to use the App, you acknowledge that you have fully understood and agree to this Policy.
 
-请你在使用本应用前仔细阅读并理解本政策。你点击“同意/接受”或继续使用本应用，即表示你已充分理解并同意本政策。
+## **1. Who We Are**
 
-## **1. 我们是谁**
+● Operator: Koala
 
-​                ● 运营主体：考拉记账
+● Contact Email: ruanweidev@163.com
 
-​                ● 联系邮箱：ruanweidev@163.com
+## **2. How We Collect and Use Personal Information**
 
-## **2. 我们如何收集和使用个人信息**
+We follow the principles of legality, legitimacy, and necessity when collecting and using information for purposes such as providing features, ensuring operational security, and improving user experience. The types of information we collect may vary depending on whether you sign in and which features you use.
 
-我们会遵循合法、正当、必要原则，出于实现产品功能、保障运行安全、改进体验等目的收集与使用信息。根据你是否登录、是否使用特定功能，我们收集的信息类型会有所不同。
+### **2.1 Information You Provide**
 
-### **2.1 你主动提供的信息**
+1. Account and identity information (if applicable)
 
-​            1.     账号与身份信息（如适用）
+● When you sign in using a third-party account (e.g., Sign in with Apple), we may obtain necessary identifier information returned by that third party to complete sign-in and account management.
 
-​                ● 当你使用第三方账号登录（例如 Apple 登录）时，我们可能会获得该第三方返回的必要标识信息，用于完成登录与账号管理。
+2. Data you enter or import while using the App
 
-​            2.     你在使用过程中输入/导入的数据
+● For example, bills, categories, tags, notes, and imported file content that you record in the App. Such data is generally stored locally on your device, or stored on our servers if you enable any synchronization capability (if available).
 
-​                ● 例如你在本应用内记录的账单、分类、标签、备注、导入的文件内容等。这些数据一般存储在你的设备本地或按你启用的同步能力存储于服务器侧（如有）。
+### **2.2 Information We Collect Automatically**
 
-### **2.2 我们自动收集的信息**
+To keep the App running properly, perform analytics, and improve stability and security, we may automatically collect the following information (relevant SDKs will only be formally initialized and start reporting after we obtain your consent):
 
-为保障本应用正常运行、进行统计分析、提升稳定性与安全性，我们可能会自动收集以下信息（在取得你的授权同意后才会进行相关 SDK 的正式初始化与上报）：
+● Device information: device model, device name, operating system version, app version, language settings, etc.
 
-​                ● 设备信息：设备型号、设备名称、操作系统版本、应用版本、语言设置等。
+● Device identifiers: may include Android ID, IMEI (if available from the system), IDFA (if authorized by you), OPENUDID, GUID, IP address, MAC address (subject to system limitations), etc., for analytics, anti-fraud, troubleshooting, and security purposes.
 
-​                ● 设备标识符：可能包括 Android ID、IMEI（如系统可获取）、IDFA（如你授权）、OPENUDID、GUID、IP 地址、MAC 地址（受系统限制）等，用于统计分析、反作弊、故障诊断与安全保障。
+● Network information: network type, carrier information (if available from the system), network request failure information, etc., for connection quality optimization and stability analysis.
 
-​                ● 网络信息：网络类型、运营商信息（如系统可获取）、网络请求失败信息等，用于优化连接质量与稳定性分析。
+● Log information: launch events, crash/exception stacks, performance data, page navigation paths, etc., for issue diagnosis and performance improvement.
 
-​                ● 日志信息：启动、崩溃/异常堆栈、性能数据、页面访问路径等，用于定位问题与提升性能体验。
+### **2.3 Permissions and Feature Mapping (Overview)**
 
-### **2.3 权限与功能对应关系（概述）**
+To provide certain features, the App may request or use device permissions. Permission names and prompts may differ by system version; please refer to the actual system prompts:
 
-本应用在提供特定功能时，可能会申请或使用设备权限。不同系统版本的权限名称与弹窗可能不同，实际以系统提示为准：
+● Network access: used for online requests, synchronization, analytics, etc.
 
-​                ● 网络权限：用于联网请求、同步、统计分析等。
+● Photos/files access (e.g., import/export, file selection, sharing, saving images): used to let you select or save files.
 
-​                ● 相册/文件访问（如你使用导入导出、选择文件、分享、保存图片等）：用于让你选取或保存文件。
+● Purchase/subscription capability (e.g., in-app purchases): used to complete payments and check subscription status, etc.
 
-​                ● 购买/订阅能力（如你使用内购）：用于完成支付、查询订阅状态等。
+We will not proactively request permissions beyond what is necessary for the features you choose to use.
 
-我们不会在与你选择的功能无关的场景下，主动请求超出必要范围的权限。
+## **3. Third-Party SDKs and Information Sharing**
 
-## **3. 第三方 SDK 说明与信息共享**
+To provide analytics and app performance monitoring, the App integrates third-party SDKs. Such SDKs may collect relevant information. We will only call the formal initialization APIs of such SDKs after obtaining your consent, enabling them to start collecting and reporting data. If you do not consent, we will not formally initialize them.
 
-为实现统计分析与应用性能监控等能力，本应用集成了第三方 SDK。第三方 SDK 可能会收集你的相关信息。我们会在取得你的授权同意后，才调用相关 SDK 的正式初始化接口，使其开始采集与上报数据；若你不同意，我们不会进行正式初始化。
+### **3.1 Umeng+ SDK (Analytics / App Performance Monitoring)**
 
-### **3.1 友盟+ SDK（移动统计 / 应用性能监控）**
+We integrate the Umeng+ SDK for analytics and app performance monitoring. The Umeng+ SDK may collect the following information to provide analytics services, calibrate report accuracy based on location, and provide basic anti-fraud capabilities:
 
-我们集成【友盟+ SDK】用于统计分析与应用性能监控。友盟+ SDK 可能会收集如下信息以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力：
+● Device information and device identifiers: MAC address, unique device identifier (IMEI / Android ID / IDFA / OPENUDID / GUID, etc.)
 
-​                ● 设备信息与设备标识：Mac 地址、唯一设备识别码（IMEI / Android ID / IDFA / OPENUDID / GUID 等）
+● Network information: IP address
 
-​                ● 网络信息：IP 地址
+● SIM-related information: IMSI (if available from the system)
 
-​                ● SIM 卡相关信息：IMSI（如系统可获取）
+The Umeng+ SDK will be formally initialized after you agree to this Policy. If you do not agree, we will not call the Umeng+ SDK’s formal initialization APIs.
 
-友盟+ SDK 的正式初始化将在你同意本政策后执行；在你不同意的情况下，我们不会调用友盟+ SDK 的正式初始化接口。
+## **4. How We Store and Protect Your Information**
 
-## **4. 我们如何存储与保护你的信息**
+1. Storage location and retention period
 
-​            1.     存储地点与期限
+● We retain your personal information only for as long as necessary to fulfill the purposes of this service, unless otherwise required by applicable laws and regulations.
 
-​                ● 我们会在实现本服务目的所需的期限内保留你的个人信息，法律法规另有规定的除外。
+● Your bookkeeping data may primarily be stored in a local database on your device. If you enable cloud synchronization (if available), relevant data may be uploaded to and stored on our servers.
 
-​                ● 你的记账数据可能主要存储在本地数据库中；若你启用云同步（如有），相关数据可能会被上传并存储于服务器端。
+2. Security measures
 
-​            2.     安全措施
+● We take reasonable and feasible technical and administrative measures to protect your information against leakage, damage, or loss.
 
-​                ● 我们会采取合理可行的技术与管理措施保护你的信息安全，防止信息泄露、损毁、丢失。
+● However, the internet environment is not absolutely secure. If a security incident occurs due to force majeure or reasons not attributable to us, we will handle it in accordance with applicable laws and regulations.
 
-​                ● 尽管如此，互联网环境并非绝对安全，若发生不可抗力或非我们原因导致的安全事件，我们将依法依规进行处置。
+## **5. Your Rights**
 
-## **5. 你的权利**
+Subject to applicable laws and regulations and the App’s capabilities, you may exercise the following rights:
 
-你可以按法律法规要求行使以下权利（以本应用支持能力为准）：
+● Access and correction: you may view and edit the data you entered in the App.
 
-​                ● 访问与更正：你可以在应用内查看并修改你录入的数据。
+● Deletion: you may delete relevant records in the App. If cloud data is involved (if available), we will provide deletion synchronization or account deletion options in line with product capabilities.
 
-​                ● 删除：你可以在应用内删除相关记录；如涉及云端数据（如有），我们会按产品能力提供同步删除或账号注销方式。
+● Withdrawal of consent: you may withdraw authorization or disable relevant switches in system or app settings. Withdrawing consent does not affect the legality of processing activities conducted based on your consent before the withdrawal.
 
-​                ● 撤回同意：你可以在系统或应用设置中撤回授权或关闭相关开关。撤回同意不影响撤回前基于你授权已开展的信息处理行为的合法性。
+## **6. Children’s Privacy**
 
-## **6. 未成年人保护**
+If you are under 14 years old, please read this Policy and use the App under the supervision and guidance of your legal guardian. We will protect minors’ personal information in accordance with applicable laws and regulations.
 
-若你是未满 14 周岁的未成年人，请在法定监护人陪同下阅读并在其同意与指导下使用本应用。我们将按照法律法规保护未成年人的个人信息。
+## **7. Updates to This Policy**
 
-## **7. 本政策的更新**
+We may revise this Policy from time to time. If a revision materially affects your rights under this Policy, we will notify you through in-app prompts, pop-ups, or announcements. By continuing to use the App, you agree to the updated Policy.
 
-我们可能适时对本政策进行修订。若修订导致你在本政策项下的权利发生实质变化，我们会通过应用内提示、弹窗或页面公告等方式向你告知。你继续使用本应用，即表示你同意接受更新后的本政策。
+## **8. Contact Us**
 
-## **8. 联系我们**
+If you have any questions, comments, or suggestions about this Policy, please contact us:
 
-如你对本政策有任何疑问、意见或建议，可通过以下方式联系我们：
+● Operator: Koala
 
-​                ● 运营主体：【考拉记账】
+● Contact Email: ruanweidev@163.com
 
-​                ● 联系邮箱：ruanweidev@163.com
-
-#  
-
- 
+#

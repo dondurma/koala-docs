@@ -1,85 +1,79 @@
+# **Koala** Terms of Service
 
+Last Updated: April 24, 2026
 
-# **考拉记账**用户协议
+Effective Date: April 24, 2026
 
-更新日期：2026 年 04 月 24 日
+These Koala Terms of Service (the “Terms”) are entered into by 【Name of the App Operator】 and its affiliates (collectively, “we”) and users (“you”) who use Koala (the “App”).
 
-生效日期：2026 年 04 月 24 日
+Before using the App, please read and fully understand these Terms. By tapping “Agree/Accept” or by using any part of the App, you confirm that you have read and agree to be bound by these Terms.
 
- 
+## **1. Definitions**
 
-本《考拉记账用户协议》（以下简称“本协议”）由【应用运营主体名称】及其关联方（以下简称“我们”）与使用 Koala（以下简称“本应用”）的用户（以下简称“你”）共同缔结。
+1. The App: the Koala client application and related services.
 
-在你开始使用本应用之前，请你务必审慎阅读并充分理解本协议各条款内容。你点击“同意/接受”或以任何方式实际使用本应用服务，即表示你已阅读并同意接受本协议的约束。
+2. Services: features and technical services we provide through the App, including bookkeeping, data management, import/export, cloud sync (if available), membership (if available), etc.
 
-## **1. 定义**
+3. Account: the identifier you use to access the App’s services (e.g., Sign in with Apple).
 
-​            1.     本应用：指 Koala 客户端软件及其相关服务。
+## **2. Scope and Changes to the Terms**
 
-​            2.     服务：指我们基于本应用向你提供的记账、数据管理、导入导出、云同步（如有）、会员（如有）等功能与技术服务。
+1. These Terms include the main text as well as any rules, notices, announcements, and explanations related to the App that we have published or may publish in the future. Once officially published, such content forms an integral part of these Terms.
 
-​            3.     账号：指你用于登录本应用服务的身份标识（如 Apple 账号登录）。
+2. We may amend these Terms when necessary and provide notice within the App or on relevant pages. If you continue to use the Services after an amendment, you are deemed to have accepted the amended Terms. If you do not accept the amended Terms, you should stop using the Services.
 
-## **2. 协议的范围与变更**
+## **3. Accounts and Usage Rules**
 
-​            1.     本协议内容包括本协议正文以及我们已经发布或将来可能发布的与本应用相关的各类规则、公告、说明等。前述内容一经正式发布，均为本协议不可分割的组成部分。
+1. You must comply with applicable laws and regulations and these Terms when using the Services, and must not use the Services for any illegal or non-compliant activities.
 
-​            2.     我们有权在必要时修改本协议条款，并在本应用内或相关页面进行提示。若你在修改后继续使用本服务，即表示你已接受修改后的协议；若你不接受修改后的协议，你应停止使用本服务。
+2. You should properly safeguard your login credentials and device. Any risk of account misuse or data leakage caused by your own actions or negligence shall be borne by you.
 
-## **3. 账号与使用规则**
+3. If you sign in using a third-party account (e.g., Apple), we will perform necessary authorization and verification in accordance with that platform’s rules.
 
-​            1.     你应当遵守法律法规及本协议约定使用本服务，不得利用本服务从事任何违法违规活动。
+## **4. Service Content and Limitations**
 
-​            2.     你应妥善保管你的登录凭据与设备，因你自身原因导致的账号被盗用或数据泄露风险，由你自行承担相应责任。
+1. The Services are provided “as is.” We will make reasonable efforts to maintain stability, but we do not guarantee that the Services will be uninterrupted or error-free.
 
-​            3.     若你通过第三方账号（如 Apple）登录，我们会按第三方平台规则进行必要的授权与验证。
+2. You understand and agree that we may adjust the Services or discontinue certain features based on product iterations, operational strategies, or compliance requirements, and we will provide notice within a reasonable scope.
 
-## **4. 服务内容与使用限制**
+3. If you refuse to agree to the necessary terms or privacy policy, you may be unable to use the core features of the App or continue using the Services.
 
-​            1.     本服务以“现状”形式提供。我们会努力保障服务稳定，但不承诺服务不会中断或没有错误。
+## **5. Paid Services (If Available)**
 
-​            2.     你理解并同意：我们可能基于产品迭代、运营策略或合规要求，对服务内容进行调整或停止部分功能，并在合理范围内进行提示。
+1. The App may offer paid services such as subscriptions or in-app purchases (e.g., membership benefits). Specific content, pricing, billing cycle, and auto-renewal rules shall be subject to the purchase page and related descriptions.
 
-​            3.     若你拒绝同意必要的协议或隐私政策，可能导致你无法使用本应用的核心功能或无法继续使用本服务。
+2. You understand and agree that payment, cancellation, and refund rules may be governed by third-party platform rules such as the Apple App Store.
 
-## **5. 付费服务（如有）**
+## **6. Intellectual Property**
 
-​            1.     本应用可能提供订阅/内购等付费服务（如会员权益）。具体内容、价格、周期、自动续费规则以购买页面展示及相关说明为准。
+1. Intellectual property rights in and to the App and related content (including, without limitation, page design, icons, text, and program code) belong to us or the relevant rights holders.
 
-​            2.     你理解并同意：支付、退订、退款等规则可能受 Apple App Store 等第三方平台规则约束。
+2. Without our prior written permission, you may not copy, modify, distribute, or reverse engineer the App or any of its content in any form.
 
-## **6. 知识产权**
+## **7. Disclaimer and Limitation of Liability**
 
-​            1.     本应用及其相关内容（包括但不限于页面设计、图标、文本、程序代码等）的知识产权归我们或相关权利人所有。
+1. To the extent permitted by law, we are not liable for losses arising from service unavailability or data anomalies caused by force majeure, third parties, network conditions, device failures, or similar circumstances.
 
-​            2.     未经我们书面许可，你不得以任何形式复制、修改、传播、反向工程本应用或其内容。
+2. You understand that you are responsible for maintaining backups of your bookkeeping data and imported/exported files. To the extent permitted by law, we are not liable for data loss resulting from your failure to back up.
 
-## **7. 免责声明与责任限制**
+## **8. Personal Information Protection**
 
-​            1.     因不可抗力、第三方原因、网络环境、设备故障等导致服务不可用或数据异常的，我们在法律允许范围内不承担由此产生的损失。
+1. We take your personal information seriously. When you use the Services, we will process your personal information in accordance with the Koala Privacy Policy.
 
-​            2.     你理解记账数据、导入导出文件等由你自行维护备份。若你未进行备份而造成数据丢失，我们在法律允许范围内不承担责任。
+2. The Koala Privacy Policy forms an important part of these Terms and has the same legal effect as these Terms.
 
-## **8. 个人信息保护**
+## **9. Governing Law and Dispute Resolution**
 
-​            1.     我们非常重视你的个人信息保护。你在使用本服务时，我们将按照《Koala 隐私政策》处理你的个人信息。
+1. The formation, validity, performance, interpretation, and dispute resolution of these Terms shall be governed by the laws and regulations of the People’s Republic of China (excluding conflict of laws rules).
 
-​            2.     《考拉记账隐私政策》是本协议的重要组成部分，与本协议具有同等法律效力。
+2. Any dispute arising from or relating to these Terms shall first be resolved through friendly negotiation. If negotiation fails, either party may file a lawsuit with the People’s Court having jurisdiction at 【place of performance / operator’s domicile】.
 
-## **9. 适用法律与争议解决**
+## **10. Contact Us**
 
-​            1.     本协议的订立、执行与解释及争议解决均适用中华人民共和国法律法规（不含冲突规范）。
+If you have any questions, comments, or suggestions about these Terms, please contact us:
 
-​            2.     因本协议引起的或与本协议有关的争议，双方应友好协商解决；协商不成的，任一方可向【合同履行地/运营主体所在地】有管辖权的人民法院提起诉讼。
+● Operator: Koala
 
-## **10. 联系我们**
+● Contact Email: ruanweidev@163.com
 
-如你对本协议有任何疑问、意见或建议，请通过以下方式与我们联系：
-
-​                ● 运营主体：【考拉记账】
-
-​                ● 联系邮箱：ruanweidev@163.com
-
-#  
-
- 
+#
