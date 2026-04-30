@@ -1,5 +1,5 @@
 # English
 
--  [Privacy Policy](./privacy)
+-  [Privacy Policy](./legal/privacy)
 
--  [Terms](./terms)
+-  [Terms](./legal/terms)

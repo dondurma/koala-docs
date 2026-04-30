@@ -1,5 +1,5 @@
 # 日本語
 
-- [プライバシーポリシー](./privacy)
+- [プライバシーポリシー](./legal/privacy)
 
-- [利用規約](./terms)
+- [利用規約](./legal/terms)
