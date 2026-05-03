@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-Koala supports importing bills from external files, which is useful when you migrate historical records. Supported import sources:
+Expense Tracker: Koala (“Koala”) supports importing bills from external files, which is useful when you migrate historical records. Supported import sources:
 
 - **Template file import**: import a standard CSV file
 - **WeChat bill import**: import a bill file exported from WeChat
@@ -23,7 +23,7 @@ Koala supports importing bills from external files, which is useful when you mig
 
 ### Step 1: Open the import page
 
-1. Open Koala
+1. Open Expense Tracker: Koala
 2. Tap **Settings**
 3. Find **Bill Import**
 4. Enter the bill import page
@@ -110,4 +110,3 @@ To import via template file, prepare a CSV in the format below.
 ---
 
 **Last updated**: Jan 2026
-

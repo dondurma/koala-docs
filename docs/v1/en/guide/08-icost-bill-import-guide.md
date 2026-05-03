@@ -2,9 +2,9 @@
 
 ## 📋 Overview
 
-This guide shows how to export bills from **iCost** and import them into **Koala**.
+This guide shows how to export bills from **iCost** and import them into **Expense Tracker: Koala** (“Koala”).
 
-Koala supports **iCost Excel export** (`.xlsx` or `.xls`). CSV exported from iCost is not supported.
+Expense Tracker: Koala (“Koala”) supports **iCost Excel export** (`.xlsx` or `.xls`). CSV exported from iCost is not supported.
 
 ---
 
@@ -23,11 +23,11 @@ Menu names may differ across versions:
 
 ---
 
-## 📱 Part 2: Import into Koala
+## 📱 Part 2: Import into Expense Tracker: Koala
 
 ### Step 1: Open the import page
 
-1. Open Koala
+1. Open Expense Tracker: Koala
 2. Tap **Settings**
 3. Find **Bill Import**
 4. Enter the bill import page

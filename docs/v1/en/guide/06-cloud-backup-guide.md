@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-Koala provides cloud backup so your bills can be synced across devices when you sign in with the same account.
+Expense Tracker: Koala (“Koala”) provides cloud backup so your bills can be synced across devices when you sign in with the same account.
 
 ---
 
@@ -23,7 +23,7 @@ Cloud backup uploads your data to the server to support:
 
 ## 🔐 Sign in (Apple)
 
-1. Open Koala and go to **Settings**
+1. Open Expense Tracker: Koala and go to **Settings**
 2. Tap the user card at the top
 3. Tap **Sign in with Apple** and follow the prompts
 

@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-Koala supports multi-currency bills with exchange rate lookup and switching.
+Expense Tracker: Koala (“Koala”) supports multi-currency bills with exchange rate lookup and switching.
 
 ---
 
@@ -20,7 +20,7 @@ The base currency is the main currency of your ledger. It is used for:
 
 ### Option 1: From Currency Settings
 
-1. Open Koala and go to **Settings**
+1. Open Expense Tracker: Koala and go to **Settings**
 2. Tap **Currency settings**
 3. Tap **Base currency**
 4. Select a new currency

@@ -1,16 +1,16 @@
-# **Koala** Terms of Service
+# **Expense Tracker: Koala** Terms of Service
 
 Last Updated: April 24, 2026
 
 Effective Date: April 24, 2026
 
-These Koala Terms of Service (the “Terms”) are entered into by 【Name of the App Operator】 and its affiliates (collectively, “we”) and users (“you”) who use Koala (the “App”).
+These Expense Tracker: Koala Terms of Service (the “Terms”) are entered into by 【Name of the App Operator】 and its affiliates (collectively, “we”) and users (“you”) who use Expense Tracker: Koala (the “App”, or “Koala”).
 
 Before using the App, please read and fully understand these Terms. By tapping “Agree/Accept” or by using any part of the App, you confirm that you have read and agree to be bound by these Terms.
 
 ## **1. Definitions**
 
-1. The App: the Koala client application and related services.
+1. The App: the Expense Tracker: Koala client application and related services.
 
 2. Services: features and technical services we provide through the App, including bookkeeping, data management, import/export, cloud sync (if available), membership (if available), etc.
 
@@ -58,9 +58,9 @@ Before using the App, please read and fully understand these Terms. By tapping �
 
 ## **8. Personal Information Protection**
 
-1. We take your personal information seriously. When you use the Services, we will process your personal information in accordance with the Koala Privacy Policy.
+1. We take your personal information seriously. When you use the Services, we will process your personal information in accordance with the Expense Tracker: Koala Privacy Policy.
 
-2. The Koala Privacy Policy forms an important part of these Terms and has the same legal effect as these Terms.
+2. The Expense Tracker: Koala Privacy Policy forms an important part of these Terms and has the same legal effect as these Terms.
 
 ## **9. Governing Law and Dispute Resolution**
 
@@ -72,7 +72,7 @@ Before using the App, please read and fully understand these Terms. By tapping �
 
 If you have any questions, comments, or suggestions about these Terms, please contact us:
 
-● Operator: Koala
+● Operator: Expense Tracker: Koala
 
 ● Contact Email: ruanweidev@163.com
 

@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This guide walks you through exporting bills from WeChat and importing them into Koala.
+This guide walks you through exporting bills from WeChat and importing them into Expense Tracker: Koala (“Koala”).
 
 ---
 
@@ -51,11 +51,11 @@ This guide walks you through exporting bills from WeChat and importing them into
 
 ---
 
-## 📱 Part 2: Import into Koala
+## 📱 Part 2: Import into Expense Tracker: Koala
 
 ### Step 1: Open the import page
 
-1. Open Koala
+1. Open Expense Tracker: Koala
 2. Tap **Settings**
 3. Find **Bill Import**
 4. Enter the bill import page

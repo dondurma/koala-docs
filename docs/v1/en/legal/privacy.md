@@ -1,16 +1,16 @@
-# **Koala** Privacy Policy
+# **Expense Tracker: Koala** Privacy Policy
 
 Last Updated: April 24, 2026
 
 Effective Date: April 24, 2026
 
-Koala (the “App”) takes your personal information seriously. This Koala Privacy Policy (the “Policy”) explains how we collect, use, store, share, and protect your personal information, as well as how you can exercise your rights.
+Expense Tracker: Koala (the “App”, or “Koala”) takes your personal information seriously. This Expense Tracker: Koala Privacy Policy (the “Policy”) explains how we collect, use, store, share, and protect your personal information, as well as how you can exercise your rights.
 
 Please read and understand this Policy carefully before using the App. By tapping “Agree/Accept” or continuing to use the App, you acknowledge that you have fully understood and agree to this Policy.
 
 ## **1. Who We Are**
 
-● Operator: Koala
+● Operator: Expense Tracker: Koala
 
 ● Contact Email: ruanweidev@163.com
 
@@ -104,7 +104,7 @@ We may revise this Policy from time to time. If a revision materially affects yo
 
 If you have any questions, comments, or suggestions about this Policy, please contact us:
 
-● Operator: Koala
+● Operator: Expense Tracker: Koala
 
 ● Contact Email: ruanweidev@163.com
 

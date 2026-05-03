@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This guide shows how to export bills from **Pixiu** and import them into **Koala**.
+This guide shows how to export bills from **Pixiu** and import them into **Expense Tracker: Koala** (“Koala”).
 
 Koala currently supports **Pixiu CSV exports** (CSV only).
 
@@ -35,11 +35,11 @@ The menu name may vary by Pixiu version, but the flow is the same: go to export,
 
 ---
 
-## 📱 Part 2: Import into Koala
+## 📱 Part 2: Import into Expense Tracker: Koala
 
 ### Step 1: Open the import page
 
-1. Open Koala
+1. Open Expense Tracker: Koala
 2. Tap **Settings**
 3. Find **Bill Import**
 4. Enter the bill import page

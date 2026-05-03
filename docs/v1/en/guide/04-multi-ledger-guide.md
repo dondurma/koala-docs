@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-Koala supports multiple ledgers so you can manage different budgets separately. Each ledger has its own name, currency, categories, and statistics.
+Expense Tracker: Koala (“Koala”) supports multiple ledgers so you can manage different budgets separately. Each ledger has its own name, currency, categories, and statistics.
 
 Common scenarios:
 
@@ -20,7 +20,7 @@ Common scenarios:
 
 ### Create a new ledger
 
-1. Open Koala
+1. Open Expense Tracker: Koala
 2. Tap **Settings**
 3. Tap **Ledger management**
 4. Tap **+**

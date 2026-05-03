@@ -1,6 +1,6 @@
 # FAQ
 
-This page collects the most common questions and quick fixes when using Koala. If something goes wrong, start here.
+This page collects the most common questions and quick fixes when using Expense Tracker: Koala (“Koala”). If something goes wrong, start here.
 
 ---
 
@@ -169,4 +169,3 @@ During manual sync, keep the app in the foreground until it finishes.
 - File format (CSV/Excel) and exported time range
 - Screenshot of the error message (if any)
 - What you already tried (re-exporting, changing source, changing file, etc.)
-
