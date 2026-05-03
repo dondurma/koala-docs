@@ -1,5 +1,3 @@
-# English
-
 ## Guides
 
 ### Bill Import
