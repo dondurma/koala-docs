@@ -102,13 +102,14 @@
   border: 1px solid var(--vp-c-border);
   border-radius: 12px;
   background-color: var(--vp-c-bg-soft);
-  text-decoration: none;
+  text-decoration: none !important;
   transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
 }
 
 .card:hover {
-  border-color: var(--vp-c-brand-1);
+  border-color: #FFB300;
   background-color: var(--vp-c-bg-soft-up);
+  text-decoration: none !important;
   transform: translateY(-1px);
 }
 
