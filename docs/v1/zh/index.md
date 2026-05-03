@@ -85,7 +85,7 @@
 </div>
 
 <style module>
-:global(.vp-doc > h2:first-child) {
+:global(.vp-doc > div > h2:first-child) {
   border-top: none;
   padding-top: 0;
   margin-top: 0;
