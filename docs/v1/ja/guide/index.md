@@ -10,3 +10,7 @@
 - [クラウドバックアップと同期](./06-cloud-backup-guide)
 - [Pixiu 明細インポート](./07-pixiu-bill-import-guide)
 - [iCost 明細インポート](./08-icost-bill-import-guide)
+- [明細の分割（帳単位）](./09-bill-split-guide)
+- [返金（明細の返金）](./10-bill-refund-guide)
+- [精算（立替の精算）](./11-bill-reimbursement-guide)
+- [定期記帳](./12-scheduled-accounting-guide)

@@ -10,3 +10,7 @@
 - [클라우드 백업 및 동기화](./06-cloud-backup-guide)
 - [Pixiu 내역 가져오기](./07-pixiu-bill-import-guide)
 - [iCost 내역 가져오기](./08-icost-bill-import-guide)
+- [거래 분할 안내](./09-bill-split-guide)
+- [환불 안내](./10-bill-refund-guide)
+- [정산 안내(지출 정산)](./11-bill-reimbursement-guide)
+- [정기 기장 안내](./12-scheduled-accounting-guide)

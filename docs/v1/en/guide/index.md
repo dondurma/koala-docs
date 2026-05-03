@@ -10,3 +10,7 @@ Use the guides below to import bills, manage ledgers, and understand exchange ra
 - [Cloud Backup & Sync](./06-cloud-backup-guide)
 - [Pixiu Bill Import](./07-pixiu-bill-import-guide)
 - [iCost Bill Import](./08-icost-bill-import-guide)
+- [Bill Splitting](./09-bill-split-guide)
+- [Bill Refunds](./10-bill-refund-guide)
+- [Bill Reimbursements](./11-bill-reimbursement-guide)
+- [Scheduled Accounting](./12-scheduled-accounting-guide)

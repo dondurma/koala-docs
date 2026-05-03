@@ -10,3 +10,7 @@
 - [雲端備份與同步](./06-cloud-backup-guide)
 - [貔貅帳單匯入](./07-pixiu-bill-import-guide)
 - [iCost 帳單匯入](./08-icost-bill-import-guide)
+- [帳單拆分說明](./09-bill-split-guide)
+- [帳單退款說明](./10-bill-refund-guide)
+- [帳單報銷說明](./11-bill-reimbursement-guide)
+- [定時記帳說明](./12-scheduled-accounting-guide)

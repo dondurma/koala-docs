@@ -10,4 +10,7 @@
 - [云备份说明](./06-cloud-backup-guide)
 - [貔貅账单导入指南](./07-pixiu-bill-import-guide)
 - [iCost 账单导入指南](./08-icost-bill-import-guide)
-
+- [账单拆分说明](./09-bill-split-guide)
+- [账单退款说明](./10-bill-refund-guide)
+- [账单报销说明](./11-bill-reimbursement-guide)
+- [定时记账说明](./12-scheduled-accounting-guide)
