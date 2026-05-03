@@ -85,6 +85,12 @@
 </div>
 
 <style module>
+:global(.vp-doc > h2:first-child) {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
