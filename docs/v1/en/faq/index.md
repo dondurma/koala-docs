@@ -159,6 +159,16 @@ During manual sync, keep the app in the foreground until it finishes.
 
 ---
 
+## Membership & Pricing
+
+### Q: Why isn’t Koala offered as a one-time purchase?
+
+**A:** Because I want Koala to be a long-term product that keeps improving, not a one-off transaction.
+
+A membership model supports sustainable development: ongoing bug fixes, experience improvements, and continuous adaptation to OS updates and new devices, plus long-term investment in capabilities like sync, data safety, and performance. That way, you get an app that keeps getting better over time, instead of risking slow updates and unsustainable maintenance after a buyout.
+
+---
+
 ## Feedback & Support
 
 ### Q: What should I include when reporting an issue?
