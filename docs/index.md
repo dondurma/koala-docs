@@ -88,6 +88,19 @@
   </a>
 </div>
 
+## 帮助
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="/v1/zh/help/account-deletion">
+    <div :class="$style.title">注销账户说明</div>
+    <div :class="$style.desc">注销会清空云端与本机数据</div>
+  </a>
+  <a :class="$style.card" href="/v1/zh/help/version-history">
+    <div :class="$style.title">版本记录</div>
+    <div :class="$style.desc">新增功能与问题修复</div>
+  </a>
+</div>
+
 <style module>
 .grid {
   display: grid;
