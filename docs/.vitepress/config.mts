@@ -4,6 +4,9 @@ export default defineConfig({
   title: 'Koala Docs',
   description: 'Koala app documents',
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+  ],
   themeConfig: {
     nav: [
       { text: '简体中文', link: '/v1/zh/' },
@@ -14,7 +17,7 @@ export default defineConfig({
     ],
     footer: {
       message:
-        '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer" style="color: var(--vp-c-brand-1); text-decoration: none;">备案号：浙ICP备2026031826号</a>',
+        '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer" style="color: var(--vp-c-brand-1); text-decoration: none; font-size: 12px;">浙ICP备2026031826号-1A</a>',
     },
   },
 })
