@@ -84,6 +84,19 @@
   </a>
 </div>
 
+## 도움말
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/account-deletion">
+    <div :class="$style.title">계정 삭제 안내</div>
+    <div :class="$style.desc">계정 삭제 시 영향과 주의사항</div>
+  </a>
+  <a :class="$style.card" href="./help/version-history">
+    <div :class="$style.title">버전 기록</div>
+    <div :class="$style.desc">신규 기능 및 버그 수정</div>
+  </a>
+</div>
+
 <style module>
 :global(.vp-doc > div > h2:first-child) {
   border-top: none;

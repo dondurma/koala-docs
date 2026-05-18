@@ -84,6 +84,19 @@
   </a>
 </div>
 
+## ヘルプ
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/account-deletion">
+    <div :class="$style.title">アカウント削除の説明</div>
+    <div :class="$style.desc">削除時の影響と注意事項</div>
+  </a>
+  <a :class="$style.card" href="./help/version-history">
+    <div :class="$style.title">バージョン履歴</div>
+    <div :class="$style.desc">追加機能と不具合修正</div>
+  </a>
+</div>
+
 <style module>
 :global(.vp-doc > div > h2:first-child) {
   border-top: none;

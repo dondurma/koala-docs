@@ -84,6 +84,19 @@
   </a>
 </div>
 
+## Help
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/account-deletion">
+    <div :class="$style.title">Account Deletion</div>
+    <div :class="$style.desc">What happens when you delete your account</div>
+  </a>
+  <a :class="$style.card" href="./help/version-history">
+    <div :class="$style.title">Release Notes</div>
+    <div :class="$style.desc">What’s new and what’s fixed</div>
+  </a>
+</div>
+
 <style module>
 :global(.vp-doc > div > h2:first-child) {
   border-top: none;

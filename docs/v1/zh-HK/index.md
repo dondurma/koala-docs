@@ -84,6 +84,19 @@
   </a>
 </div>
 
+## 幫助
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/account-deletion">
+    <div :class="$style.title">註銷帳戶說明</div>
+    <div :class="$style.desc">註銷會清空雲端與本機資料</div>
+  </a>
+  <a :class="$style.card" href="./help/version-history">
+    <div :class="$style.title">版本記錄</div>
+    <div :class="$style.desc">新增功能與問題修復</div>
+  </a>
+</div>
+
 <style module>
 :global(.vp-doc > div > h2:first-child) {
   border-top: none;
