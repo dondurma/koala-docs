@@ -14,3 +14,6 @@ Use the guides below to import bills, manage ledgers, and understand exchange ra
 - [Bill Refunds](./10-bill-refund-guide)
 - [Bill Reimbursements](./11-bill-reimbursement-guide)
 - [Scheduled Accounting](./12-scheduled-accounting-guide)
+- [Back Tap Guide](./13-back-tap-guide)
+- [AssistiveTouch Guide](./14-assistive-touch-guide)
+- [Action Button Guide](./15-action-button-guide)

@@ -14,3 +14,6 @@
 - [帳單退款說明](./10-bill-refund-guide)
 - [帳單報銷說明](./11-bill-reimbursement-guide)
 - [定時記帳說明](./12-scheduled-accounting-guide)
+- [輕敲手機背面教學](./13-back-tap-guide)
+- [輔助小白點教學](./14-assistive-touch-guide)
+- [操作按鈕教學](./15-action-button-guide)

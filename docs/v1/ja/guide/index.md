@@ -14,3 +14,6 @@
 - [返金（明細の返金）](./10-bill-refund-guide)
 - [精算（立替の精算）](./11-bill-reimbursement-guide)
 - [定期記帳](./12-scheduled-accounting-guide)
+- [背面タップガイド](./13-back-tap-guide)
+- [AssistiveTouchガイド](./14-assistive-touch-guide)
+- [アクションボタンガイド](./15-action-button-guide)

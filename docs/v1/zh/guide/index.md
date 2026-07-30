@@ -14,3 +14,6 @@
 - [账单退款说明](./10-bill-refund-guide)
 - [账单报销说明](./11-bill-reimbursement-guide)
 - [定时记账说明](./12-scheduled-accounting-guide)
+- [轻敲手机背面教程](./13-back-tap-guide)
+- [辅助小白点教程](./14-assistive-touch-guide)
+- [操作按钮教程](./15-action-button-guide)

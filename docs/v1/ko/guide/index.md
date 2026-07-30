@@ -14,3 +14,6 @@
 - [환불 안내](./10-bill-refund-guide)
 - [정산 안내(지출 정산)](./11-bill-reimbursement-guide)
 - [정기 기장 안내](./12-scheduled-accounting-guide)
+- [뒷면 탭 가이드](./13-back-tap-guide)
+- [AssistiveTouch 가이드](./14-assistive-touch-guide)
+- [동작 버튼 가이드](./15-action-button-guide)
