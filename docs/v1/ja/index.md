@@ -58,6 +58,23 @@
   </a>
 </div>
 
+### 自動記帳
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./guide/13-back-tap-guide">
+    <div :class="$style.title">背面タップガイド</div>
+    <div :class="$style.desc">背面タップで自動記帳を起動</div>
+  </a>
+  <a :class="$style.card" href="./guide/14-assistive-touch-guide">
+    <div :class="$style.title">AssistiveTouchガイド</div>
+    <div :class="$style.desc">AssistiveTouchで自動記帳を起動</div>
+  </a>
+  <a :class="$style.card" href="./guide/15-action-button-guide">
+    <div :class="$style.title">アクションボタンガイド</div>
+    <div :class="$style.desc">アクションボタンで自動記帳を起動</div>
+  </a>
+</div>
+
 ## よくある質問
 
 <div :class="$style.grid">

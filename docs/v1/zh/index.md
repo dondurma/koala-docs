@@ -58,6 +58,23 @@
   </a>
 </div>
 
+### 自动记账
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./guide/13-back-tap-guide">
+    <div :class="$style.title">轻敲手机背面教程</div>
+    <div :class="$style.desc">轻敲背面触发自动记账</div>
+  </a>
+  <a :class="$style.card" href="./guide/14-assistive-touch-guide">
+    <div :class="$style.title">辅助小白点教程</div>
+    <div :class="$style.desc">通过辅助触控触发自动记账</div>
+  </a>
+  <a :class="$style.card" href="./guide/15-action-button-guide">
+    <div :class="$style.title">操作按钮教程</div>
+    <div :class="$style.desc">通过操作按钮触发自动记账</div>
+  </a>
+</div>
+
 ## 常见问题
 
 <div :class="$style.grid">

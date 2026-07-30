@@ -58,6 +58,23 @@
   </a>
 </div>
 
+### 자동 기장
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./guide/13-back-tap-guide">
+    <div :class="$style.title">뒷면 탭 가이드</div>
+    <div :class="$style.desc">뒷면을 탭하여 자동 기장 실행</div>
+  </a>
+  <a :class="$style.card" href="./guide/14-assistive-touch-guide">
+    <div :class="$style.title">AssistiveTouch 가이드</div>
+    <div :class="$style.desc">AssistiveTouch로 자동 기장 실행</div>
+  </a>
+  <a :class="$style.card" href="./guide/15-action-button-guide">
+    <div :class="$style.title">동작 버튼 가이드</div>
+    <div :class="$style.desc">동작 버튼으로 자동 기장 실행</div>
+  </a>
+</div>
+
 ## 자주 묻는 질문
 
 <div :class="$style.grid">

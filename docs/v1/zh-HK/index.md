@@ -58,6 +58,23 @@
   </a>
 </div>
 
+### 自動記帳
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./guide/13-back-tap-guide">
+    <div :class="$style.title">輕敲手機背面教學</div>
+    <div :class="$style.desc">輕敲背面觸發自動記帳</div>
+  </a>
+  <a :class="$style.card" href="./guide/14-assistive-touch-guide">
+    <div :class="$style.title">輔助小白點教學</div>
+    <div :class="$style.desc">透過輔助觸控觸發自動記帳</div>
+  </a>
+  <a :class="$style.card" href="./guide/15-action-button-guide">
+    <div :class="$style.title">操作按鈕教學</div>
+    <div :class="$style.desc">透過操作按鈕觸發自動記帳</div>
+  </a>
+</div>
+
 ## 常見問題
 
 <div :class="$style.grid">

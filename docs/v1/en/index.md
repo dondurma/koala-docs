@@ -58,6 +58,23 @@
   </a>
 </div>
 
+### Auto Accounting
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./guide/13-back-tap-guide">
+    <div :class="$style.title">Back Tap Guide</div>
+    <div :class="$style.desc">Trigger auto accounting with Back Tap</div>
+  </a>
+  <a :class="$style.card" href="./guide/14-assistive-touch-guide">
+    <div :class="$style.title">AssistiveTouch Guide</div>
+    <div :class="$style.desc">Trigger via AssistiveTouch</div>
+  </a>
+  <a :class="$style.card" href="./guide/15-action-button-guide">
+    <div :class="$style.title">Action Button Guide</div>
+    <div :class="$style.desc">Trigger via Action Button</div>
+  </a>
+</div>
+
 ## FAQ
 
 <div :class="$style.grid">
