@@ -112,6 +112,10 @@
     <div :class="$style.title">Release Notes</div>
     <div :class="$style.desc">What’s new and what’s fixed</div>
   </a>
+  <a :class="$style.card" href="./help/contact">
+    <div :class="$style.title">Contact Me</div>
+    <div :class="$style.desc">Email and social media</div>
+  </a>
 </div>
 
 <style module>

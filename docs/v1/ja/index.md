@@ -112,6 +112,10 @@
     <div :class="$style.title">バージョン履歴</div>
     <div :class="$style.desc">追加機能と不具合修正</div>
   </a>
+  <a :class="$style.card" href="./help/contact">
+    <div :class="$style.title">お問い合わせ</div>
+    <div :class="$style.desc">メールとSNSの連絡先</div>
+  </a>
 </div>
 
 <style module>

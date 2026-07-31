@@ -34,7 +34,7 @@ To keep the App running properly, perform analytics, and improve stability and s
 
 ● Device information: device model, device name, operating system version, app version, language settings, etc.
 
-● Device identifiers: may include Android ID, IMEI (if available from the system), IDFA (if authorized by you), OPENUDID, GUID, IP address, MAC address (subject to system limitations), etc., for analytics, anti-fraud, troubleshooting, and security purposes.
+● Device identifiers: may include IDFA (if authorized by you), OPENUDID, GUID, IP address, MAC address (subject to system limitations), etc., for analytics, anti-fraud, troubleshooting, and security purposes.
 
 ● Network information: network type, carrier information (if available from the system), network request failure information, etc., for connection quality optimization and stability analysis.
 
@@ -60,11 +60,9 @@ To provide analytics and app performance monitoring, the App integrates third-pa
 
 We integrate the Umeng+ SDK for analytics and app performance monitoring. The Umeng+ SDK may collect the following information to provide analytics services, calibrate report accuracy based on location, and provide basic anti-fraud capabilities:
 
-● Device information and device identifiers: MAC address, unique device identifier (IMEI / Android ID / IDFA / OPENUDID / GUID, etc.)
+● Device information and device identifiers: MAC address, unique device identifier (IDFA / OPENUDID / GUID, etc.)
 
 ● Network information: IP address
-
-● SIM-related information: IMSI (if available from the system)
 
 The Umeng+ SDK will be formally initialized after you agree to this Policy. If you do not agree, we will not call the Umeng+ SDK’s formal initialization APIs.
 

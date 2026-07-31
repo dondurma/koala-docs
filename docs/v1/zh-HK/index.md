@@ -112,6 +112,10 @@
     <div :class="$style.title">版本記錄</div>
     <div :class="$style.desc">新增功能與問題修復</div>
   </a>
+  <a :class="$style.card" href="./help/contact">
+    <div :class="$style.title">聯絡我</div>
+    <div :class="$style.desc">電郵與社交媒體聯絡方式</div>
+  </a>
 </div>
 
 <style module>

@@ -4,6 +4,7 @@ Deleting your account will clear all data for this account in both the cloud and
 
 ## What will happen
 
+- Account information: your account profile will be removed (including avatar, username, etc.).
 - Cloud data: all cloud-synced data for this account will be removed (including but not limited to ledgers, bills, categories, tags, etc.).
 - Local data: all local data for this account on the current device will be removed (including offline data).
 - Irreversible: once completed, deleted data cannot be recovered.

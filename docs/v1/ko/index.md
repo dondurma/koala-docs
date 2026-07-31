@@ -112,6 +112,10 @@
     <div :class="$style.title">버전 기록</div>
     <div :class="$style.desc">신규 기능 및 버그 수정</div>
   </a>
+  <a :class="$style.card" href="./help/contact">
+    <div :class="$style.title">문의하기</div>
+    <div :class="$style.desc">이메일 및 소셜 미디어 연락처</div>
+  </a>
 </div>
 
 <style module>
