@@ -9,8 +9,8 @@
     <span class="contact-value">ruanweidev@163.com</span>
   </a>
   <a class="contact-card" href="https://xhslink.com/m/3CgkJlri999" target="_blank">
-    <span class="contact-icon">📕</span>
-    <span class="contact-name">샤오홍슈</span>
+    <span class="contact-icon">📝</span>
+    <span class="contact-name">샤오홍슈（REDnote）</span>
     <span class="contact-value">방문하기</span>
   </a>
   <a class="contact-card" href="https://x.com/Rlingers_" target="_blank">

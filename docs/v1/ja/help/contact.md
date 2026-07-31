@@ -9,8 +9,8 @@
     <span class="contact-value">ruanweidev@163.com</span>
   </a>
   <a class="contact-card" href="https://xhslink.com/m/3CgkJlri999" target="_blank">
-    <span class="contact-icon">📕</span>
-    <span class="contact-name">RED（小紅書）</span>
+    <span class="contact-icon">📝</span>
+    <span class="contact-name">REDnote（小紅書）</span>
     <span class="contact-value">アクセス</span>
   </a>
   <a class="contact-card" href="https://x.com/Rlingers_" target="_blank">

@@ -9,7 +9,7 @@
     <span class="contact-value">ruanweidev@163.com</span>
   </a>
   <a class="contact-card" href="https://xhslink.com/m/3CgkJlri999" target="_blank">
-    <span class="contact-icon">📕</span>
+    <span class="contact-icon">📝</span>
     <span class="contact-name">小红书</span>
     <span class="contact-value">点击访问</span>
   </a>
