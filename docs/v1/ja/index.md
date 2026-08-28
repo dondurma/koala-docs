@@ -29,8 +29,8 @@
 
 <div :class="$style.grid">
   <a :class="$style.card" href="./guide/04-multi-ledger-guide">
-    <div :class="$style.title">複数帳本</div>
-    <div :class="$style.desc">帳本の作成、切替、データの分離</div>
+    <div :class="$style.title">複数レッジ</div>
+    <div :class="$style.desc">レッジの作成、切替、データの分離</div>
   </a>
   <a :class="$style.card" href="./guide/05-exchange-rate-guide">
     <div :class="$style.title">為替レート</div>
@@ -41,7 +41,7 @@
     <div :class="$style.desc">ログイン、同期、復元</div>
   </a>
   <a :class="$style.card" href="./guide/09-bill-split-guide">
-    <div :class="$style.title">明細の分割（帳単位）</div>
+    <div :class="$style.title">明細の分割（レッジ単位）</div>
     <div :class="$style.desc">1件を複数の子明細に分割</div>
   </a>
   <a :class="$style.card" href="./guide/10-bill-refund-guide">
@@ -80,7 +80,7 @@
 <div :class="$style.grid">
   <a :class="$style.card" href="./faq/">
     <div :class="$style.title">よくある質問（FAQ）</div>
-    <div :class="$style.desc">インポート、帳本、為替、同期など</div>
+    <div :class="$style.desc">インポート、レッジ、為替、同期など</div>
   </a>
 </div>
 

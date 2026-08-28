@@ -78,12 +78,47 @@ This guide shows you how to export bills from Alipay and import them into Expens
 
 > 💡 Tip: If you only have one ledger, Koala links it automatically.
 
-### Step 5: Parse, preview, and import
+### Step 5: Parse the file
 
 1. Tap **Parse** (top-right)
-2. Review records on the preview page
-3. Edit categories/accounts/notes if needed
-4. Tap **Import**
+2. Wait for parsing to finish (may take a few seconds)
+3. If successful, you will be taken to the preview page automatically
+
+> ⚠️ **If parsing fails**:
+> - Check that the file format is correct
+> - Check that the import source is set to **Alipay**
+> - Check that the file is not corrupted
+> - Try exporting the file again from Alipay
+
+### Step 6: Preview and edit
+
+After parsing, you can:
+
+- **View all records**: grouped by date
+- **Edit a single record**: tap a record to change:
+  - Category (income/expense category)
+  - Amount
+  - Time
+  - Account
+  - Tags
+  - Notes
+- **Delete invalid records**: long-press a record to delete
+- **Batch operations**: choose to skip invalid records
+
+> 📝 **Recommendations**:
+> - Review the data before importing to make sure it is correct
+> - Check that categories are matched correctly
+> - Check that amounts are correct
+> - Adjust categories and accounts manually if needed
+
+### Step 7: Import data
+
+1. After reviewing the data on the preview page, confirm everything looks correct
+2. Tap **Import**
+3. Wait for the import to finish (may take a few seconds)
+4. After import completes, the result will be shown
+
+> ✅ **Import successful**: All valid records have been imported into your ledger. You can view them in the bill list.
 
 ---
 
@@ -130,17 +165,30 @@ Koala maps Alipay columns to Koala fields automatically:
 - Payment method (row[7]) → account (matched by name; created if missing)
 - Note (row[11]) → bill note (used as the original note; “/” or empty is ignored, then Koala appends extra lines)
 
-### 3. Category and account matching
+### 3. Category matching
 
-- Automatic matching may not be perfect; review and adjust in the preview page.
-- If an account does not exist, Koala may create it automatically.
+- The system will try to match categories automatically, but results may not be fully accurate.
+- It is recommended to check whether categories are correct on the preview page.
+- Adjust categories manually if needed.
 
-### 4. Duplicate and refund handling
+### 4. Account matching
 
-- If a record is detected as a duplicate (based on transaction identifiers), Koala may skip it.
-- Refund-related records are usually marked as “已退款/退款成功”; review them in the preview page.
+- The system will try to match accounts based on "payment source" or other information.
+- If an account does not exist, the system will create it automatically.
+- It is recommended to create common accounts before importing.
 
-### 5. Avoid manual edits to the export file
+### 5. Duplicate handling
+
+- If an imported record duplicates an existing record (based on transaction identifiers), the system will skip it automatically.
+- It is recommended to check for duplicate data before importing.
+
+### 6. Refund handling
+
+- If the bill contains refund records, the system will try to identify and handle them.
+- Refund records are usually marked as "已退款" (Refunded) or "退款成功" (Refund successful).
+- It is recommended to check refund records on the preview page.
+
+### 7. Avoid manual edits to the export file
 
 Do not modify the exported file (especially headers/columns). Renaming headers, deleting columns, or adding columns may cause parsing to fail.
 
