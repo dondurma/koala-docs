@@ -4,6 +4,12 @@ This page records what’s new in each Koala release and is maintained in revers
 
 ---
 
+## 2026-09-02 v1.0.0 (22)
+
+### Added
+
+1. Batch bill editing.
+
 ## 2026-05-22 v1.0.0
 
 ### Added
