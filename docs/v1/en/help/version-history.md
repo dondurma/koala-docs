@@ -4,7 +4,7 @@ This page records what’s new in each Koala release and is maintained in revers
 
 ---
 
-## 2026-09-10 v1.0.0 (24)
+## 2026-09-10 v1.0.1 (24)
 
 ### Fixed
 
