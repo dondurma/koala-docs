@@ -4,7 +4,13 @@ This page records what’s new in each Koala release and is maintained in revers
 
 ---
 
-## 2026-09-02 v1.0.0 (22)
+## 2026-09-10 v1.0.0 (24)
+
+### Fixed
+
+1. Fixed the lag issue when deleting bills on the Bill Import - Data Preview page.
+
+## 2026-09-02 v1.0.0 (23)
 
 ### Added
 
