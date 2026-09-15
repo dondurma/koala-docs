@@ -4,6 +4,16 @@ This page records what’s new in each Koala release and is maintained in revers
 
 ---
 
+## 2026-09-15 v1.0.2 (25)
+
+### Fixed
+
+1. Fixed double-counting of amounts for split bills in tag statistics and export.
+2. Fixed scheduled accounting continuing to create bills after the configured end date.
+3. Fixed subcategories not syncing to other devices after being moved to another category.
+4. Improved the stability of bill list scrolling and page back navigation.
+5. Fixed some Korean copy.
+
 ## 2026-09-10 v1.0.1 (24)
 
 ### Fixed
