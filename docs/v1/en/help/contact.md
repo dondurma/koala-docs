@@ -39,7 +39,7 @@ If you have any questions or suggestions, feel free to reach out.
   gap: 14px;
   padding: 18px 22px;
   border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
+  border-radius: 20px;
   text-decoration: none;
   color: var(--vp-c-text-1);
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;

@@ -134,7 +134,7 @@
   display: block;
   padding: 14px 16px;
   border: 1px solid var(--vp-c-border);
-  border-radius: 12px;
+  border-radius: 20px;
   background-color: var(--vp-c-bg-soft);
   text-decoration: none !important;
   transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
