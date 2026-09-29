@@ -17,3 +17,7 @@ Use the guides below to import bills, manage ledgers, and understand exchange ra
 - [Back Tap Guide](./13-back-tap-guide)
 - [AssistiveTouch Guide](./14-assistive-touch-guide)
 - [Action Button Guide](./15-action-button-guide)
+- [Mood Check-in Guide](./16-mood-guide)
+- [Statistics & Sharing Guide](./17-chart-and-share-guide)
+- [Bill Export Guide](./18-bill-export-guide)
+- [Membership Guide](./19-membership-guide)

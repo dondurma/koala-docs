@@ -18,6 +18,8 @@ Expense Tracker: Koala ("Koala") supports creating multiple ledgers, making it e
 
 ### Create a New Ledger
 
+> ⚠️ **Membership feature**: Creating multiple ledgers requires a membership. See the Membership Guide for details.
+
 1. Open Expense Tracker: Koala
 2. Tap the **"Settings"** icon in the bottom navigation bar
 3. Find the **"Ledger management"** option in the Settings page
@@ -27,12 +29,11 @@ Expense Tracker: Koala ("Koala") supports creating multiple ledgers, making it e
    - **Ledger name**: Enter a name (e.g., Personal, Family, etc.)
    - **Ledger description**: Optional — enter a description
    - **Ledger icon**: Choose an icon (optional)
-   - **Ledger currency**: Select the currency for the ledger (e.g., CNY, USD, etc.)
 7. Tap **"Save"** to finish creating the ledger
 
 > 💡 **Tip**:
 > - The ledger name can be changed at any time
-> - The ledger currency can be changed on the ledger details page
+> - A new ledger's currency is automatically matched to your device region; you can change it on the ledger details page after creation
 > - Each ledger's data is independent and does not affect others
 
 ### Switch Ledgers
@@ -78,7 +79,7 @@ On the Ledger Management page, you can:
 
 > ⚠️ **Note**:
 > - Changing the ledger currency will adjust the display of all bill amounts accordingly
-> - It is recommended to choose the correct currency when creating the ledger to avoid later changes
+> - A new ledger's currency is matched to your device region by default; if it's not what you need, change it under “Currency” on the ledger details page
 
 ### Delete a Ledger
 
@@ -100,10 +101,10 @@ On the Ledger Management page, you can:
 
 ### Set the Ledger Currency
 
-Each ledger can have its own currency. You can:
+Each ledger can have its own currency:
 
-1. **Set at creation**: Choose a currency when creating the ledger
-2. **Change later**: Modify the currency on the ledger details page
+- **At creation**: A new ledger is automatically matched to a currency based on your device region (the creation page does not offer manual selection)
+- **Change later**: You can change the ledger currency on the ledger details page
 
 ### Currency Switching Details
 
@@ -186,7 +187,7 @@ Ledger data is automatically synced at the following times:
 
 Expense Tracker: Koala includes several built-in ledger types, each with its own preset categories:
 
-### Default Ledger (All Income & Expenses)
+### Daily Ledger (All Income & Expenses)
 
 - **Expense categories**: Includes all expense categories (except certain specific ones)
 - **Income categories**: Includes all income categories (except certain specific ones)
@@ -243,7 +244,7 @@ Expense Tracker: Koala includes several built-in ledger types, each with its own
 > 💡 **Tip**:
 > - You can choose a ledger type when creating a ledger
 > - Different ledger types come with different preset categories
-> - You can also create a custom ledger and manually set up categories
+> - After creation, you can also add, remove, and adjust categories yourself
 
 ---
 
@@ -298,4 +299,4 @@ Expense Tracker: Koala includes several built-in ledger types, each with its own
 
 ---
 
-**Last updated**: January 2026
+**Last updated**: September 2026

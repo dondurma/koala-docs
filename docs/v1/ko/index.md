@@ -56,6 +56,22 @@
     <div :class="$style.title">정기 기장 안내</div>
     <div :class="$style.desc">반복 수입/지출 자동 기록</div>
   </a>
+  <a :class="$style.card" href="./guide/16-mood-guide">
+    <div :class="$style.title">기분 기록 안내</div>
+    <div :class="$style.desc">개요 화면에서 매일의 기분 기록</div>
+  </a>
+  <a :class="$style.card" href="./guide/17-chart-and-share-guide">
+    <div :class="$style.title">통계 및 공유 안내</div>
+    <div :class="$style.desc">통계 기준과 가계부 리포트 공유</div>
+  </a>
+  <a :class="$style.card" href="./guide/18-bill-export-guide">
+    <div :class="$style.title">가계부 내보내기 안내</div>
+    <div :class="$style.desc">가계부를 CSV로 내보내 백업</div>
+  </a>
+  <a :class="$style.card" href="./guide/19-membership-guide">
+    <div :class="$style.title">멤버십 안내</div>
+    <div :class="$style.desc">멤버십 혜택 및 구독 안내</div>
+  </a>
 </div>
 
 ### 자동 기장

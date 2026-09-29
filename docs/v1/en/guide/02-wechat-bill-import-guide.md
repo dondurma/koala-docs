@@ -101,8 +101,8 @@ On the preview page, you can:
 
 - Review records grouped by date
 - Tap a record to edit category, amount, time, account, tags, and notes
-- Long-press to delete invalid records
-- Batch-skip invalid records
+- Long-press any record to enter multi-select mode, then use the bottom action bar (Select all / Delete) to delete records in bulk
+- When you tap **Import** and invalid data exists, you will be prompted to **import valid data only** or **go back and edit**
 
 > 📝 Recommendation: Always review categories and amounts before importing.
 
@@ -146,14 +146,15 @@ Excel exports have the same columns; only the file format is different.
 
 ### 2. Field mapping (how Koala imports)
 
-Koala maps the WeChat fields to Koala fields automatically:
+Koala identifies columns by **header name** (column order does not matter) and maps them to Koala fields:
 
-- Transaction time → bill date (converted to a date string)
-- Income/expense → bill type
-- Category fields → category (may require manual adjustment)
-- Amount → bill amount
-- Payment method → account (matched by name; created if missing)
-- Counterparty / status / IDs / notes → bill note (combined)
+- Transaction time → bill date (kept down to hour/minute/second if present)
+- Income/expense (or type) → bill type
+- Transaction type → parent category (e.g. “微信红包”, “转账”, “消费”)
+- Item (or item description) → child category
+- Amount (or transaction amount) → bill amount
+- Payment method (or payment/refund method) → account (matched by name; created if missing)
+- Counterparty, status, transaction ID, merchant ID, note → appended into the bill note
 
 ### 3. Category matching
 
@@ -231,4 +232,4 @@ There is no strict limit, but it’s recommended to:
 
 ---
 
-**Last updated**: May 2026
+**Last updated**: September 2026

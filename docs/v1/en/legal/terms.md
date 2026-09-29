@@ -1,6 +1,6 @@
 # **Expense Tracker: Koala** Terms of Service
 
-Last Updated: April 24, 2026
+Last updated: April 24, 2026
 
 Effective Date: April 24, 2026
 

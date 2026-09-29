@@ -66,7 +66,7 @@ The menu name may vary by Pixiu version, but the flow is the same: go to export,
 
 1. Tap **Parse** (top-right)
 2. After parsing succeeds, Koala opens the preview page
-3. You can edit/delete single records, or batch-skip invalid records
+3. On the preview page you can tap a record to edit it; long-press to enter multi-select mode for bulk deletion, and when tapping **Import** you can choose **import valid data only**
 
 ### Step 6: Import
 
@@ -77,26 +77,26 @@ The menu name may vary by Pixiu version, but the flow is the same: go to export,
 
 ## 📋 Pixiu CSV format (reference)
 
-Koala validates Pixiu CSV as follows:
+How Koala recognizes a Pixiu CSV:
 
-- The first row must be the header row
-- The header must contain **10 columns**
+- The header row must be within the first few rows of the file; Koala identifies columns by **header name**, so column order does not matter
 - Fields are separated by a comma `,` (standard CSV)
+- The table below lists the fields commonly found in Pixiu exports and their meanings; as long as the header names can be matched, changes in order are still recognized
 
-### Columns (in order)
+### Field definitions
 
-| # | Column meaning | Notes |
-|------|------|------|
-| 1 | Date | Supports `yyyy-MM-dd` / `yyyy/MM/dd`, and the year must be ≥ 2016; otherwise it’s treated as invalid |
-| 2 | Parent category | Used to match Koala’s parent category name |
-| 3 | Type | Must contain the keyword “支出” (expense) or “收入” (income); if it contains “收入”, Koala imports it as income, otherwise as expense |
-| 4 | Child category | Used to match Koala’s child category name |
-| 5 | Inflow amount | Income amount (a leading `-` is allowed; Koala removes the sign on import) |
-| 6 | Outflow amount | Expense amount (a leading `-` is allowed; Koala removes the sign on import) |
-| 7 | Currency code | For example `CNY` / `USD`; if empty, Koala uses the ledger’s default currency |
-| 8 | Account | Account name (matched to Koala accounts; created during import if missing) |
-| 9 | Tags | Multiple tags separated by commas (`,`), also supports Chinese comma `，` |
-| 10 | Note | Note text |
+| Field | Description |
+|------|------|
+| Date | Supports `yyyy-MM-dd` / `yyyy/MM/dd`, and the year must be ≥ 2016; otherwise it's treated as an invalid date |
+| Parent category (income/expense group) | Used to match Koala's parent category name |
+| Transaction type | The text must contain the keyword “支出” (expense) or “收入” (income); if it contains “收入”, Koala imports it as income, otherwise as expense |
+| Child category | Used to match Koala's child category name |
+| Inflow amount | Income amount column (a leading `-` is allowed; Koala removes the sign on import) |
+| Outflow amount | Expense amount column (a leading `-` is allowed; Koala removes the sign on import) |
+| Currency code | For example `CNY` / `USD`; if empty, Koala uses the target ledger's default currency |
+| Account | Account name (matched to Koala accounts; Koala tries to create it during import if missing) |
+| Tags | Multiple tags separated by commas (`,`), also supports the Chinese comma `，` |
+| Note | Note text |
 
 ### Mapping into Koala
 
@@ -122,13 +122,14 @@ Koala validates Pixiu CSV as follows:
 
 ## 🔧 FAQ
 
-### Q1: “Header length is incorrect”.
+### Q1: “Header not found”, or columns can't be recognized?
 
-Make sure the first header row has exactly **10 columns**. Common causes:
+Koala identifies columns by header name. Common causes:
 
-1. The CSV file is not exported from Pixiu
-2. Editing the file in Excel/WPS introduced extra separators so the column count changed
+1. The CSV file is not exported from Pixiu, or the header names were changed
+2. Editing the file in Excel/WPS changed the headers, or added/removed columns
 3. The file was saved in an incompatible CSV variant (e.g. semicolon-delimited)
+4. The header names can't be mapped to fields such as “date / transaction type / amount”
 
 ### Q2: Amount is wrong or becomes 0 after import.
 
@@ -143,4 +144,4 @@ On the preview page, tap a record and select the correct category manually; or c
 
 ---
 
-**Last updated**: May 2026
+**Last updated**: September 2026

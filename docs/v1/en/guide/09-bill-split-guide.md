@@ -29,6 +29,7 @@ After splitting:
 
 ## 4. Rules and notes
 
+- **Bill splitting is a membership feature**: it requires an active membership. See the Membership Guide for details.
 - The sum of sub-item amounts must equal the original bill amount; otherwise you can’t save.
 - Each sub-item must have a category and an amount greater than 0.
 - Statistics are calculated from sub-bills; the original bill is not included.

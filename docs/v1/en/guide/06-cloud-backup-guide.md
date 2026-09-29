@@ -27,10 +27,8 @@ Expense Tracker: Koala ("Koala") provides a cloud backup feature that lets you s
 
 1. Open Expense Tracker: Koala
 2. Tap the **"Settings"** icon in the bottom navigation bar
-3. At the top of the Settings page, tap the user info card
-4. If you are not signed in, sign-in options will appear
-5. Tap **"Sign in with Apple"**
-6. Follow the prompts to complete the Apple sign-in flow
+3. At the top of the Settings page, tap the user info card (when not signed in, it shows “Sign in with Apple”)
+4. Follow the prompts to complete the Apple sign-in flow
 
 > 📝 **Note**:
 > - After signing in, your data will automatically start syncing to the cloud
@@ -55,17 +53,27 @@ The system automatically syncs data at the following times:
 
 ### Manual Sync
 
-You can also trigger sync manually:
-
 1. Open Expense Tracker: Koala
 2. Tap the **"Settings"** icon in the bottom navigation bar
-3. In the upper-right corner of the Settings page, tap the cloud sync icon (cloud icon)
-4. Wait for the sync to complete (sync progress will be displayed)
+3. In the upper-right corner of the Settings page, **tap once** the cloud sync icon (cloud icon) to trigger a sync manually
+4. While syncing, the icon shows a loading animation; when it finishes, it returns to the cloud icon
 
 > ⚠️ **Note**:
 > - Manual sync requires being signed in
 > - If you are not signed in, you will be prompted to sign in before syncing
 > - Please keep the app in the foreground during the sync process
+
+### View Sync Status (Sync Dashboard)
+
+In the upper-right corner of the Settings page, **double-tap** the cloud sync icon (cloud icon) to open the “Cloud Sync Status” overlay, which shows the current sync state at a glance:
+
+- Grouped by category: bills, accounts, ledgers, categories, tags, transfers
+- Each category shows the “synced count” and “pending count”, with an icon indicating whether the category is fully synced
+- Tap outside the overlay to close it
+
+> 💡 **Tip**:
+> - **Tap once** the cloud icon = manual sync; **double-tap** the cloud icon = view sync status
+> - A “pending” count of 0 for a category (green check) means that category is fully synced
 
 ---
 
@@ -77,9 +85,11 @@ Cloud backup syncs the following data:
 
 - **Ledger data**: Ledger names, descriptions, currencies, icons, etc.
 - **Bill data**: All bill records (including amounts, categories, tags, notes, etc.)
-- **Account data**: Account names, balances, types, etc.
-- **Category data**: Expense and income categories
+- **Account data**: Account names, types, etc. (account balance is local data, is not uploaded, and is restored locally from bills)
+- **Category data**: Expense and income categories (including parent/child categories)
 - **Tag data**: Tag groups and tags
+- **Transfer data**: Transfer records between accounts
+- **Mood data**: Mood check-in records on the Overview page
 
 ### Data That Is Not Synced
 
@@ -88,22 +98,20 @@ The following data is not synced to the cloud:
 - **App settings**: Theme, language, and other local settings
 - **Cache data**: Temporary cache data
 - **User preferences**: Personal preference settings
+- **Exchange rate data**: Fetched from the server on demand on this device
+- **Account balance**: Local data, not uploaded (restored locally from bills)
 
 ---
 
 ## 🔒 Data Security
 
-### Data Protection
+### Access Control & Isolation
 
 - **Access control**: Only signed-in users can access their own data
-- **Data isolation**: Data from different accounts is isolated and invisible to others
-- **Security tip**: Please safeguard your Apple account and perform the initial sync on a stable network
-
-### Data Isolation
-
 - **User isolation**: Each user's data is completely isolated and invisible to others
 - **Device isolation**: Data from different devices is linked through the user account
 - **Ledger isolation**: Data from different ledgers is stored independently
+- **Security tip**: Please safeguard your Apple account and perform the initial sync on a stable network
 
 ---
 
@@ -122,16 +130,19 @@ Expense Tracker: Koala uses an incremental sync mechanism:
 Each record has a sync status:
 
 - **Synced (0)**: Data has been successfully synced to the cloud
-- **Pending sync (1)**: Data has changed and is waiting to sync
-- **Pending delete (2)**: Data has been deleted and is waiting to sync the deletion
+- **Pending sync (1)**: Data has changed and is waiting to be uploaded
+- **Pending delete (2)**: Data has been deleted and is waiting for the deletion to be synced to the cloud
+- **Pending confirmation (3)**: After submission, a bill is waiting to align with the cloud's authoritative result (an internal status that usually completes quickly)
 
 ### Conflict Handling
 
 If multiple devices modify the same record simultaneously:
 
-- **Local priority**: If the local side has unsynced changes, the system prioritizes local changes to avoid being overwritten by cloud data
-- **Latest change wins**: When both sides modify the same record, the system tries to keep the most recent change
-- **Manual resolution**: If a conflict occurs, manual resolution may be needed
+- **Local unsynced changes take priority**: If there are still unsynced local changes, the local changes are kept to avoid being overwritten by cloud data
+- **Synced data follows the cloud**: For data with no pending local changes, the cloud's latest value is used
+- **No manual handling needed**: Sync converges automatically — you don't need to resolve conflicts manually
+
+> 💡 **Tip**: To avoid confusion from repeatedly editing the same record on multiple devices, it is recommended to let one device finish syncing before continuing to edit on another device.
 
 ---
 
@@ -152,7 +163,7 @@ If multiple devices modify the same record simultaneously:
 
 2. **Wait for the sync to complete**:
    - The initial sync may take some time
-   - You can check the sync status on the Settings page
+   - You can double-tap the cloud icon in the upper-right corner of the Settings page to view the sync status of each data category
    - Once the sync is complete, the data will appear on the new device
 
 3. **Continue using the app**:
@@ -225,7 +236,7 @@ If multiple devices modify the same record simultaneously:
 
 1. **Sync regularly**: It is recommended to manually sync periodically to ensure your data is up to date
 2. **Network environment**: It is recommended to perform the initial sync over Wi-Fi
-3. **Back up data**: It is recommended to regularly export important data as a backup (CSV/Excel)
+3. **Back up data**: It is recommended to regularly export important data as a backup via “Bill Export” (CSV)
 4. **Account security**: Protect your sign-in account to prevent unauthorized access
 5. **Multi-device management**: If you use multiple devices, it is recommended to periodically check the sync status
 
@@ -235,10 +246,10 @@ If multiple devices modify the same record simultaneously:
 
 1. **Sign-in required**: Cloud backup requires signing in — it cannot be used without an account
 2. **Network dependency**: Syncing requires a network connection — syncing is not possible offline
-3. **Data security**: Although data is protected, you should still safeguard your sign-in account
+3. **Data security**: Please safeguard your sign-in account to prevent unauthorized access
 4. **Sync delay**: Syncing may have some delay and is not instantaneous
 5. **Data recovery**: Deleted data cannot be recovered — please proceed with caution
 
 ---
 
-**Last updated**: May 2026
+**Last updated**: September 2026

@@ -134,15 +134,16 @@ Recommendation: open **Ledger management** to confirm the current ledger, then c
 
 **A:**
 
-- **Synced**: ledgers, bills, accounts, categories, tags
-- **Not synced**: app settings (theme/language), cache, preferences
+- **Synced**: ledgers, bills, accounts, categories (including parent/child categories), tags (including tag groups), transfers, mood check-ins
+- **Not synced**: local app settings (theme/language, etc.), cache, preferences, exchange rates, account balances
 
 ### Q: When does sync happen automatically? How do I sync manually?
 
 **A:**
 
-- **Automatic**: typically on app launch, after data changes, and when switching ledgers
-- **Manual**: tap the cloud icon at the top-right of the Settings page
+- **Automatic**: typically on app launch, after data changes (about a 2-second debounce), and when switching ledgers
+- **Manual**: **tap once** the cloud icon at the top-right of the Settings page
+- **View sync status**: **double-tap** the cloud icon at the top-right of the Settings page to open an overlay showing the synced/pending counts for each category
 
 During manual sync, keep the app in the foreground until it finishes.
 
@@ -160,6 +161,24 @@ During manual sync, keep the app in the foreground until it finishes.
 ---
 
 ## Membership & Pricing
+
+### Q: Which features require a membership?
+
+**A:** Features that currently require a membership include:
+
+- Multiple ledgers (creating and managing more than one ledger)
+- Multi-currency (switching/using multiple currencies when recording)
+- Bill export
+- Bill splitting
+- Scheduled accounting
+
+Features available to all users include: quick entry, cloud sync, bill reimbursement, and refunds.
+
+Free users can store up to **1000** bills in total; members have no limit.
+
+### Q: How do I subscribe to a membership or restore a purchase?
+
+**A:** Go to the Settings page and tap the user card at the top to open the membership page (you need to sign in first if you haven’t). Membership is offered as annual or monthly subscriptions; pricing is subject to what the App Store shows. After switching devices or reinstalling, you can tap “Restore Purchases” in the top-right corner of the membership page (subject to the App Store subscription status).
 
 ### Q: Why isn’t Koala offered as a one-time purchase?
 

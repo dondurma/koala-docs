@@ -17,3 +17,7 @@
 - [뒷면 탭 가이드](./13-back-tap-guide)
 - [AssistiveTouch 가이드](./14-assistive-touch-guide)
 - [동작 버튼 가이드](./15-action-button-guide)
+- [기분 기록 안내](./16-mood-guide)
+- [통계 및 공유 안내](./17-chart-and-share-guide)
+- [가계부 내보내기 안내](./18-bill-export-guide)
+- [멤버십 안내](./19-membership-guide)

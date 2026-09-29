@@ -29,8 +29,8 @@
 
 <div :class="$style.grid">
   <a :class="$style.card" href="./guide/04-multi-ledger-guide">
-    <div :class="$style.title">複数レッジ</div>
-    <div :class="$style.desc">レッジの作成、切替、データの分離</div>
+    <div :class="$style.title">複数の帳簿</div>
+    <div :class="$style.desc">帳簿の作成、切替、データの分離</div>
   </a>
   <a :class="$style.card" href="./guide/05-exchange-rate-guide">
     <div :class="$style.title">為替レート</div>
@@ -41,7 +41,7 @@
     <div :class="$style.desc">ログイン、同期、復元</div>
   </a>
   <a :class="$style.card" href="./guide/09-bill-split-guide">
-    <div :class="$style.title">明細の分割（レッジ単位）</div>
+    <div :class="$style.title">明細の分割（帳簿単位）</div>
     <div :class="$style.desc">1件を複数の子明細に分割</div>
   </a>
   <a :class="$style.card" href="./guide/10-bill-refund-guide">
@@ -55,6 +55,22 @@
   <a :class="$style.card" href="./guide/12-scheduled-accounting-guide">
     <div :class="$style.title">定期記帳</div>
     <div :class="$style.desc">定期的な収支を自動で記録</div>
+  </a>
+  <a :class="$style.card" href="./guide/16-mood-guide">
+    <div :class="$style.title">気分記録ガイド</div>
+    <div :class="$style.desc">概観ページで毎日の気分を記録</div>
+  </a>
+  <a :class="$style.card" href="./guide/17-chart-and-share-guide">
+    <div :class="$style.title">統計と共有ガイド</div>
+    <div :class="$style.desc">統計の軸と明細レポートの共有</div>
+  </a>
+  <a :class="$style.card" href="./guide/18-bill-export-guide">
+    <div :class="$style.title">帳簿エクスポートガイド</div>
+    <div :class="$style.desc">明細を CSV でエクスポートしてバックアップ</div>
+  </a>
+  <a :class="$style.card" href="./guide/19-membership-guide">
+    <div :class="$style.title">会員ガイド</div>
+    <div :class="$style.desc">会員特典と開通の説明</div>
   </a>
 </div>
 
@@ -80,7 +96,7 @@
 <div :class="$style.grid">
   <a :class="$style.card" href="./faq/">
     <div :class="$style.title">よくある質問（FAQ）</div>
-    <div :class="$style.desc">インポート、レッジ、為替、同期など</div>
+    <div :class="$style.desc">インポート、帳簿、為替、同期など</div>
   </a>
 </div>
 

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "55a1906c4a97a3f9",
+        "id": "4706e2c8f89b131c",
         "type": "tabs",
         "children": [
           {
-            "id": "6b262f86567debf3",
+            "id": "aa1fb340a74e8301",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/v1/en/help/version-history.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "version-history"
+              "title": "新标签页"
             }
           }
         ]
@@ -185,8 +181,29 @@
       "bases:新建数据库": false
     }
   },
-  "active": "6b262f86567debf3",
+  "active": "aa1fb340a74e8301",
   "lastOpenFiles": [
+    "docs/v1/ko/guide/18-bill-export-guide.md",
+    "docs/v1/ko/guide/19-membership-guide.md",
+    "docs/v1/ko/guide/17-chart-and-share-guide.md",
+    "docs/v1/ko/guide/16-mood-guide.md",
+    "docs/v1/ja/guide/18-bill-export-guide.md",
+    "docs/v1/ja/guide/19-membership-guide.md",
+    "docs/v1/zh-HK/guide/18-bill-export-guide.md",
+    "docs/v1/zh-HK/guide/19-membership-guide.md",
+    "docs/v1/zh-HK/guide/17-chart-and-share-guide.md",
+    "docs/v1/ja/guide/17-chart-and-share-guide.md",
+    "docs/v1/ja/guide/16-mood-guide.md",
+    "docs/v1/zh-HK/guide/16-mood-guide.md",
+    "docs/v1/en/guide/19-membership-guide.md",
+    "docs/v1/en/guide/18-bill-export-guide.md",
+    "docs/v1/en/guide/17-chart-and-share-guide.md",
+    "docs/v1/en/guide/16-mood-guide.md",
+    "docs/v1/zh/guide/18-bill-export-guide.md",
+    "docs/v1/zh/guide/19-membership-guide.md",
+    "docs/v1/zh/guide/16-mood-guide.md",
+    "docs/v1/zh/guide/17-chart-and-share-guide.md",
+    "docs/v1/en/help/version-history.md",
     "docs/v1/ja/help/version-history.md",
     "docs/v1/ko/help/version-history.md",
     "docs/v1/zh-HK/help/version-history.md",

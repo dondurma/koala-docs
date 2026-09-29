@@ -56,6 +56,22 @@
     <div :class="$style.title">定時記帳說明</div>
     <div :class="$style.desc">固定收支自動生成帳單</div>
   </a>
+  <a :class="$style.card" href="./guide/16-mood-guide">
+    <div :class="$style.title">心情打卡說明</div>
+    <div :class="$style.desc">在概覽頁記錄每天的心情</div>
+  </a>
+  <a :class="$style.card" href="./guide/17-chart-and-share-guide">
+    <div :class="$style.title">統計與分享說明</div>
+    <div :class="$style.desc">統計維度與帳單報告分享</div>
+  </a>
+  <a :class="$style.card" href="./guide/18-bill-export-guide">
+    <div :class="$style.title">帳單匯出說明</div>
+    <div :class="$style.desc">匯出帳單為 CSV 備份</div>
+  </a>
+  <a :class="$style.card" href="./guide/19-membership-guide">
+    <div :class="$style.title">會員說明</div>
+    <div :class="$style.desc">會員權益與開通說明</div>
+  </a>
 </div>
 
 ### 自動記帳

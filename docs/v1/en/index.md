@@ -56,6 +56,22 @@
     <div :class="$style.title">Scheduled Accounting</div>
     <div :class="$style.desc">Auto-generate recurring bills</div>
   </a>
+  <a :class="$style.card" href="./guide/16-mood-guide">
+    <div :class="$style.title">Mood Check-in Guide</div>
+    <div :class="$style.desc">Record your daily mood from the Overview page</div>
+  </a>
+  <a :class="$style.card" href="./guide/17-chart-and-share-guide">
+    <div :class="$style.title">Statistics & Sharing Guide</div>
+    <div :class="$style.desc">Statistics dimensions and bill report sharing</div>
+  </a>
+  <a :class="$style.card" href="./guide/18-bill-export-guide">
+    <div :class="$style.title">Bill Export Guide</div>
+    <div :class="$style.desc">Export bills to CSV for backup</div>
+  </a>
+  <a :class="$style.card" href="./guide/19-membership-guide">
+    <div :class="$style.title">Membership Guide</div>
+    <div :class="$style.desc">Membership benefits and how to subscribe</div>
+  </a>
 </div>
 
 ### Auto Accounting

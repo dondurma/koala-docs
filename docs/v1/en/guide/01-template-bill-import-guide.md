@@ -75,8 +75,8 @@ After parsing succeeds, you can do the following on the preview page:
 
 - **View all bill records**: displayed grouped by date
 - **Edit a single record**: tap a record to modify its category, amount, time, etc.
-- **Delete invalid records**: long-press a record to delete it
-- **Batch operations**: choose to skip invalid records
+- **Batch operations**: long-press any record to enter multi-select mode, then use the bottom action bar (Select all / Delete) to delete records in bulk
+- **Invalid data**: when you tap **Import** and invalid data exists, you will be prompted to **import valid data only** or **go back and edit**
 
 > 📝 **Recommendation**: Before importing, preview the data first and make sure it is correct.
 
@@ -104,30 +104,30 @@ To import via template file, prepare a CSV in the format below.
 ### Example
 
 ```csv
-日期,类型,金额,分类,账户,备注,标签
-2024-01-01,支出,100.00,餐饮,现金,午餐,工作餐
-2024-01-02,收入,5000.00,工资,银行卡,月薪,
+Transaction Date,Transaction Type,Parent Category,Child Category,Income Amount,Expense Amount,Account,Tags,Remark
+2026/01/01,Expense,Food,Lunch,,15.00,Default Account,Office Meal,Lunch with colleagues
+2026/01/05,Income,Salary,Monthly Salary,5000.00,,Bank Card,,Monthly Salary
 ```
 
 ### Field reference
 
 | Field | Description | Required | Example |
 |------|------|------|------|
-| Transaction date | Bill date, format: `yyyy/MM/dd` | ✅ | 2026/01/01 |
-| Transaction type | Expense or income | ✅ | 支出 / 收入 |
-| Parent category | Level-1 category name | ✅ | 伙食 |
-| Child category | Level-2 category name under the parent | ✅ | 早餐 |
+| Transaction date | Bill date, format: `yyyy/MM/dd` (also supports `yyyy-MM-dd`) | ✅ | 2026/01/01 |
+| Transaction type | Expense or income | ✅ | Expense / Income |
+| Parent category | Level-1 category name | ❌ | Food |
+| Child category | Level-2 category name under the parent | ❌ | Breakfast |
 | Inflow amount | Amount used when type is income | ✅ | 100.00 |
 | Outflow amount | Amount used when type is expense | ✅ | 15 |
-| Account | Account name (prefer an existing account) | ✅ | 默认账户 |
-| Note | Bill note | ❌ | 午餐 |
-| Tags | Tag names, separated by commas | ❌ | 工作餐,聚餐 |
+| Account | Account name (prefer an existing account) | ❌ | Default Account |
+| Note | Bill note | ❌ | Lunch |
+| Tags | Tag names, separated by commas | ❌ | Office Meal, Dining Out |
 
 ### Download the Template File
 
 1. On the import page, tap **Download Template File**
-2. The system will download a sample CSV file
-3. Use the template as a reference when preparing your data
+2. The system generates a CSV template with **only the header row** in the current app language, then opens the system share/save sheet
+3. Fill in your data row by row under the headers, then return to the import page and select the file to import
 
 ---
 
@@ -135,10 +135,10 @@ To import via template file, prepare a CSV in the format below.
 
 ### 1. Data Format Requirements
 
-- **Date format**: must be `YYYY/MM/DD` (e.g. `2026/01/01`)
+- **Date format**: `YYYY/MM/DD` is supported (e.g. `2026/01/01`), and `YYYY-MM-DD` is also compatible
 - **Amount format**: numeric, decimals supported (e.g. `100.00`)
-- **Transaction type**: must be "支出" (expense) or "收入" (income)
-- **Category & account**: must already exist in the app; if missing, they will be created automatically during import
+- **Transaction type**: must be "Expense" or "Income" (Chinese "支出" / "收入" is also supported)
+- **Category & account**: categories/accounts that don't exist in the app are created automatically during import (it is recommended to create your common accounts in advance to avoid non-standard names)
 
 ### 2. Data Validation
 
@@ -157,6 +157,8 @@ Before import, the system automatically validates data:
 - If the data volume is large (over 1000 records), import in batches
 - Keep the app in the foreground during import
 - After import, manually trigger a data sync
+
+> 💡 **Tip**: Free users can store up to 1000 bills in total across all ledgers; members have no limit. If you have a large data set, check your remaining bill quota before importing.
 
 ---
 
@@ -208,4 +210,4 @@ Before import, the system automatically validates data:
 
 ---
 
-**Last updated**: Jan 2026
+**Last updated**: September 2026

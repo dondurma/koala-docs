@@ -17,3 +17,7 @@
 - [輕敲手機背面教學](./13-back-tap-guide)
 - [輔助小白點教學](./14-assistive-touch-guide)
 - [操作按鈕教學](./15-action-button-guide)
+- [心情打卡說明](./16-mood-guide)
+- [統計與分享說明](./17-chart-and-share-guide)
+- [帳單匯出說明](./18-bill-export-guide)
+- [會員說明](./19-membership-guide)

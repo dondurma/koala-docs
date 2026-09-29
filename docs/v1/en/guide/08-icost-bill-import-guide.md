@@ -65,39 +65,39 @@ Menu names may differ across versions:
 
 ## 📋 iCost Excel format (how Koala reads it)
 
-Koala checks:
+How Koala recognizes an iCost Excel file:
 
-- The Excel file has a readable worksheet
-- The header row contains **"日期"** (used to locate the header)
+- The Excel file must have a readable worksheet
+- Koala identifies columns by **header name**, so column order does not matter; the header row can be within the first few rows
+- If the header names can't be mapped to the required fields (date / type / amount), Koala prompts “header not found” or opens the “field mapping confirmation page” for manual assignment
 
-Tip: If iCost lets you choose export language, export with Chinese headers (at least keep "日期").
+> 📝 **Tip**: If iCost lets you choose the export language, exporting with Chinese headers makes automatic recognition more likely.
 
-### Columns (by position)
+### Field definitions
 
-| # | Field | Notes |
-|---|---|---|
-| 1 | Date | Date strings (multiple formats) or Excel serial date |
-| 2 | Type | Must contain the keyword for expense or income |
-| 3 | Amount | `+` or `-` allowed; thousands separators are handled |
-| 4 | Parent category | Used to match Koala categories |
-| 5 | Child category | If empty, Koala uses parent category |
-| 6 | Account | If empty, Koala uses a default account |
-| 8 | Note | Text |
-| 9 | Currency code | For example `CNY` or `USD` (fallback to ledger default) |
-| 10 | Tags | Comma-separated (`,` or `，`) |
+| Field | Description |
+|------|------|
+| Date | Supports `yyyy-MM-dd` / `yyyy/MM/dd` / `yyyy-MM-ddTHH:mm:ss` / `yyyy-MM-dd HH:mm:ss`; Excel serial dates are also supported |
+| Type | The text must contain the keyword “支出” (expense) or “收入” (income); contains “支出” = expense, contains “收入” = income |
+| Amount | `+`/`-` allowed; Koala removes the sign and thousands-separator commas on import |
+| Parent category (level-1) | Used to match Koala's parent category name |
+| Child category (level-2) | If empty, Koala uses the value of “Parent category” |
+| Account | If empty, Koala uses a default account as a fallback |
+| Note | Note text |
+| Currency code | For example `CNY` / `USD`; if empty or unmatched, Koala uses the target ledger's default currency |
+| Tags | Multiple tags separated by commas (`,`), also supports the Chinese comma `，` |
 
 ### Field mapping (how Koala imports)
 
-- Date (row[0]) → bill date
-- Type (row[1], contains expense/income keyword) → bill type
-- Amount (row[2]) → amount
-- Parent category (row[3]) → parent category (matched/created)
-- Child category (row[4]; if empty, use parent) → child category (matched/created)
-- Account (row[5]; if empty, default account) → account
-- Column 7 (row[6]) → ignored
-- Note (row[7]) → note
-- Currency code (row[8]) → currency (matched by code; fallback to ledger currency)
-- Tags (row[9]) → tags (matched/created and linked)
+- Date → bill date
+- Type (containing “expense/income”) → bill type
+- Amount → amount
+- Level-1 category → parent category (matched/created)
+- Level-2 category (uses level-1 if empty) → child category (matched/created)
+- Account (default account if empty) → account
+- Note → note
+- Currency code → currency (matched by code; falls back to the ledger's default currency)
+- Tags → tags (parsed/created and linked)
 
 ---
 
@@ -105,7 +105,7 @@ Tip: If iCost lets you choose export language, export with Chinese headers (at l
 
 1. **Excel only**: iCost CSV files cannot be imported.
 2. **No automatic deduplication**: Importing the same file twice will create duplicate bills. Avoid importing the same time range repeatedly.
-3. **Header language**: Parsing relies on finding a header row that contains “日期”. If you export with non-Chinese headers, Koala may fail to locate the header.
+3. **Header names**: Parsing relies on the header names being mappable to fields such as “date / type / amount”; if they can't be recognized, Koala prompts “header not found” or opens the field mapping confirmation page.
 4. **Empty account handling**: If the account column is empty, Koala uses a default account as a fallback. Consider filling in accounts in iCost, or batch-edit accounts in the preview page.
 5. **Category matching**: Koala matches by “parent + child” names. If matching fails, the preview page will show it as incomplete; select the correct category before importing.
 
@@ -117,15 +117,15 @@ Tip: If iCost lets you choose export language, export with Chinese headers (at l
 
 Common reasons:
 
-1. The header row does not contain “日期” (for example, exported with English headers)
-2. The file is not an iCost export, or it was edited and the structure changed
+1. The header names can't be recognized (for example, exported with English headers that can't be mapped to “date / type / amount”)
+2. The file is not an iCost export, or its structure was damaged by editing
 3. The Excel file is empty or has no worksheet
 
-Re-export from iCost and prefer Chinese headers.
+> 📝 If only some header names can be recognized, Koala may open the “field mapping confirmation page”, where you can manually assign the field for each column before importing.
 
 ### Q2: Many records went into the same account.
 
-This is expected if the “Account” column is empty. Koala uses a default account as a fallback. Batch-edit accounts in the preview page, or export again after filling accounts in iCost.
+This is expected if the “Account” column is empty. Koala uses a default account as a fallback. Edit accounts in the preview page, or export again after filling accounts in iCost.
 
 ### Q3: Categories don’t match.
 
@@ -143,4 +143,4 @@ On the preview page, tap a record and select the correct category manually; or c
 
 ---
 
-**Last updated**: Apr 2026
+**Last updated**: September 2026

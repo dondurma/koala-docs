@@ -102,8 +102,8 @@ After parsing, you can:
   - Account
   - Tags
   - Notes
-- **Delete invalid records**: long-press a record to delete
-- **Batch operations**: choose to skip invalid records
+- **Batch operations**: long-press any record to enter multi-select mode, then use the bottom action bar (Select all / Delete) to delete records in bulk
+- **Invalid data**: when you tap **Import** and invalid data exists, you will be prompted to **import valid data only** or **go back and edit**
 
 > 📝 **Recommendations**:
 > - Review the data before importing to make sure it is correct
@@ -155,15 +155,15 @@ Alipay’s CSV export typically contains:
 
 ### 2. Field mapping (how Koala imports)
 
-Koala maps Alipay columns to Koala fields automatically:
+Koala identifies columns by **header name** (column order does not matter) and maps them to Koala fields:
 
-- Transaction time (row[0]) → bill date (date only, `yyyy-MM-dd`)
-- Category (row[1]) → category (parent and child set to the same name)
-- Counterparty / account / item / status / order numbers → appended into the bill note (combined)
-- Income/expense (row[5]) → bill type (income/expense)
-- Amount (row[6]) → bill amount
-- Payment method (row[7]) → account (matched by name; created if missing)
-- Note (row[11]) → bill note (used as the original note; “/” or empty is ignored, then Koala appends extra lines)
+- Transaction time → bill date (date only, `yyyy-MM-dd`)
+- Transaction category (or Category) → parent/child category (parent and child share the same name)
+- Income/expense (or type) → bill type (income/expense)
+- Amount (or transaction amount) → bill amount
+- Payment/refund method (or payment method) → account (matched by name; created if missing)
+- Counterparty, counterparty account, item description, status, transaction order no., merchant order no. → appended into the bill note
+- Note → the original note (ignored if it is “/” or empty; the appended items above are then added on top)
 
 ### 3. Category matching
 
@@ -173,14 +173,14 @@ Koala maps Alipay columns to Koala fields automatically:
 
 ### 4. Account matching
 
-- The system will try to match accounts based on "payment source" or other information.
+- The system matches accounts by “payment/refund method”.
 - If an account does not exist, the system will create it automatically.
 - It is recommended to create common accounts before importing.
 
 ### 5. Duplicate handling
 
-- If an imported record duplicates an existing record (based on transaction identifiers), the system will skip it automatically.
-- It is recommended to check for duplicate data before importing.
+- Import does not deduplicate automatically — importing the same file twice will create duplicate bills.
+- Avoid importing the same time range repeatedly; if duplicates were already created, filter by time range in the bill list and delete them manually.
 
 ### 6. Refund handling
 
@@ -259,4 +259,4 @@ Alipay currently exports bills in CSV. If Excel export becomes available, the gu
 
 ---
 
-**Last updated**: May 2026
+**Last updated**: September 2026

@@ -56,6 +56,22 @@
     <div :class="$style.title">定时记账说明</div>
     <div :class="$style.desc">固定收支自动生成账单</div>
   </a>
+  <a :class="$style.card" href="./guide/16-mood-guide">
+    <div :class="$style.title">心情打卡说明</div>
+    <div :class="$style.desc">在概览页记录每天的心情</div>
+  </a>
+  <a :class="$style.card" href="./guide/17-chart-and-share-guide">
+    <div :class="$style.title">统计与分享说明</div>
+    <div :class="$style.desc">统计维度与账单报告分享</div>
+  </a>
+  <a :class="$style.card" href="./guide/18-bill-export-guide">
+    <div :class="$style.title">账单导出说明</div>
+    <div :class="$style.desc">导出账单为 CSV 备份</div>
+  </a>
+  <a :class="$style.card" href="./guide/19-membership-guide">
+    <div :class="$style.title">会员说明</div>
+    <div :class="$style.desc">会员权益与开通说明</div>
+  </a>
 </div>
 
 ### 自动记账

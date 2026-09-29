@@ -72,7 +72,7 @@ On the Currency Settings page, you can:
 The exchange rate list is organized as follows:
 
 - **Base currency**: Displays the currently set base currency (rate is 1.0)
-- **Common currencies**: Displays frequently used currencies (e.g., USD, EUR, GBP, JPY, etc.)
+- **Common currencies**: Displays a fixed set of common currencies (CNY, USD, EUR, JPY, KRW, GBP, HKD, AUD)
 - **Alphabetical groups**: Other currencies are grouped by their first letter
 
 ### Exchange Rate Updates
@@ -141,10 +141,10 @@ The system clears the cache in the following situations:
 
 In some cases, you may need to manually adjust an exchange rate:
 
-1. On the Currency Settings page, find the currency you want to modify
-2. Tap the currency item to enter the exchange rate settings page
-3. Enter the exchange rate value manually
-4. After saving, the rate will be applied to all related calculations
+1. On the Currency Settings page, find the currency you want to modify (the base currency cannot be modified)
+2. Tap the currency item to open a rate input dialog
+3. Enter the new rate (at most 1 digit before the decimal point and at most 9 digits after it) and confirm
+4. After saving, the rate is applied to all related calculations
 
 > ⚠️ **Note**:
 > - A manually set exchange rate will override the automatically fetched rate
@@ -194,7 +194,7 @@ The system supports the following exchange rate precision levels:
 ### Q5: Which currencies are supported?
 
 **A:** Expense Tracker: Koala supports major currencies worldwide, including:
-- Common currencies: CNY, USD, EUR, GBP, JPY, AUD, CAD, and more
+- Common currencies: CNY, USD, EUR, JPY, KRW, GBP, HKD, AUD
 - Other currencies: 100+ currencies supported
 
 ### Q6: Where does the exchange rate data come from?
@@ -217,4 +217,4 @@ The system supports the following exchange rate precision levels:
 
 ---
 
-**Last updated**: May 2026
+**Last updated**: September 2026
