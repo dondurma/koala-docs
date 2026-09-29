@@ -4,6 +4,15 @@ This page records what’s new in each Koala release and is maintained in revers
 
 ---
 
+## 2026-09-26 v1.0.7 (31)
+
+### Fixed
+
+1. Fixed reimbursement entries disappearing on their own — they now stay even after switching devices or reinstalling.
+2. Fixed sync carrying over failed items from a previous account after you sign in with a new one.
+3. Fixed sync occasionally hanging for a long time, or a whole batch of bills failing to load.
+4. Fixed some category, tag and transfer changes not syncing, or showing differently across two devices.
+
 ## 2026-09-15 v1.0.2 (25)
 
 ### Fixed
