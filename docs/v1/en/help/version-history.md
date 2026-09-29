@@ -1,8 +1,6 @@
 # Release Notes
 
-This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
-
----
+> This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
 ## 2026-09-26 v1.0.7 (31)
 

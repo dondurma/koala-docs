@@ -11,10 +11,14 @@
             "id": "6b262f86567debf3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/v1/en/help/version-history.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "version-history"
             }
           }
         ]
@@ -182,5 +186,10 @@
     }
   },
   "active": "6b262f86567debf3",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "docs/v1/ja/help/version-history.md",
+    "docs/v1/ko/help/version-history.md",
+    "docs/v1/zh-HK/help/version-history.md",
+    "docs/v1/zh/help/version-history.md"
+  ]
 }
