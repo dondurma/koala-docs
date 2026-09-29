@@ -12,8 +12,6 @@ Expense Tracker: Koala ("Koala") supports creating multiple ledgers, making it e
 - **Renovation ledger**: Log home renovation spending
 - **Business ledger**: Track business income and expenses
 
----
-
 ## 🚀 Quick Start
 
 ### Create a New Ledger
@@ -49,8 +47,6 @@ Expense Tracker: Koala ("Koala") supports creating multiple ledgers, making it e
 > - After switching ledgers, all pages (Overview, Statistics, Bill list, etc.) will display data for the selected ledger
 > - Switching ledgers does not affect data in other ledgers
 > - The current ledger is indicated by a badge on the ledger card
-
----
 
 ## 📚 Ledger Management
 
@@ -95,8 +91,6 @@ On the Ledger Management page, you can:
 > - This action cannot be restored inside the app — please proceed with caution
 > - It is recommended to back up your data before deleting
 
----
-
 ## 💰 Ledger Currency Settings
 
 ### Set the Ledger Currency
@@ -131,8 +125,6 @@ Expense Tracker: Koala supports a wide range of currencies, including:
 > - Select the correct transaction currency when recording transactions
 > - The system will automatically convert amounts to the ledger currency for display
 
----
-
 ## 📊 Ledger Data Isolation
 
 ### Data Independence
@@ -157,8 +149,6 @@ After switching ledgers:
 - **Bill list**: Displays bill records for the current ledger
 - **Account list**: Displays all accounts (shared across ledgers)
 
----
-
 ## 🔄 Ledger Sync
 
 ### Cloud Sync Support
@@ -180,8 +170,6 @@ Ledger data is automatically synced at the following times:
 > 💡 **Tip**:
 > - It is recommended to manually sync periodically to ensure data is up to date
 > - If the network is unstable, you can retry syncing later
-
----
 
 ## 🎨 Ledger Type Descriptions
 
@@ -246,8 +234,6 @@ Expense Tracker: Koala includes several built-in ledger types, each with its own
 > - Different ledger types come with different preset categories
 > - After creation, you can also add, remove, and adjust categories yourself
 
----
-
 ## 🔧 FAQ
 
 ### Q1: How many ledgers can I create?
@@ -287,8 +273,6 @@ Expense Tracker: Koala includes several built-in ledger types, each with its own
 
 **A:** No. Each ledger's data is completely independent — switching ledgers does not affect data in other ledgers.
 
----
-
 ## 💡 Tips
 
 1. **Organize wisely**: Create ledgers based on actual needs — avoid creating too many
@@ -296,7 +280,5 @@ Expense Tracker: Koala includes several built-in ledger types, each with its own
 3. **Back up data**: It is recommended to regularly back up important ledgers to prevent data loss
 4. **Use clear names**: Choose descriptive ledger names for easy identification and management
 5. **Choose the right currency**: Select the appropriate currency based on the ledger's purpose to avoid frequent switching
-
----
 
 **Last updated**: September 2026

@@ -4,8 +4,6 @@
 
 Expense Tracker: Koala ("Koala") provides a cloud backup feature that lets you securely back up your bill data to the cloud and sync it across multiple devices. This guide will help you understand how to use cloud backup.
 
----
-
 ## ☁️ What Is Cloud Backup?
 
 **Cloud backup** uploads your bill data to a cloud server to achieve:
@@ -18,8 +16,6 @@ Expense Tracker: Koala ("Koala") provides a cloud backup feature that lets you s
 > - Cloud backup requires signing in to an account (currently supports Sign in with Apple)
 > - The cloud applies access control and data isolation — only signed-in users can access their own data
 > - In most cases, syncing happens automatically; you can also trigger it manually from the Settings page
-
----
 
 ## 🔐 Sign In
 
@@ -34,8 +30,6 @@ Expense Tracker: Koala ("Koala") provides a cloud backup feature that lets you s
 > - After signing in, your data will automatically start syncing to the cloud
 > - The initial sync on first sign-in may take some time
 > - Please ensure your network connection is stable
-
----
 
 ## 🔄 Cloud Sync Mechanism
 
@@ -75,8 +69,6 @@ In the upper-right corner of the Settings page, **double-tap** the cloud sync ic
 > - **Tap once** the cloud icon = manual sync; **double-tap** the cloud icon = view sync status
 > - A “pending” count of 0 for a category (green check) means that category is fully synced
 
----
-
 ## 📊 Synced Content
 
 ### Data Types That Are Synced
@@ -101,8 +93,6 @@ The following data is not synced to the cloud:
 - **Exchange rate data**: Fetched from the server on demand on this device
 - **Account balance**: Local data, not uploaded (restored locally from bills)
 
----
-
 ## 🔒 Data Security
 
 ### Access Control & Isolation
@@ -112,8 +102,6 @@ The following data is not synced to the cloud:
 - **Device isolation**: Data from different devices is linked through the user account
 - **Ledger isolation**: Data from different ledgers is stored independently
 - **Security tip**: Please safeguard your Apple account and perform the initial sync on a stable network
-
----
 
 ## 🔄 Sync Flow
 
@@ -144,8 +132,6 @@ If multiple devices modify the same record simultaneously:
 
 > 💡 **Tip**: To avoid confusion from repeatedly editing the same record on multiple devices, it is recommended to let one device finish syncing before continuing to edit on another device.
 
----
-
 ## 📱 Multi-Device Sync
 
 ### Device Requirements
@@ -174,8 +160,6 @@ If multiple devices modify the same record simultaneously:
 > - It is recommended to avoid making large changes before the sync is complete
 > - If the sync fails, you can trigger it manually
 > - Make sure all devices are signed in with the same account
-
----
 
 ## 🔧 FAQ
 
@@ -230,8 +214,6 @@ If multiple devices modify the same record simultaneously:
 - After reinstalling the app and signing in, you can restore your data
 - If you were not signed in, uninstalling the app will result in loss of local data
 
----
-
 ## 💡 Tips
 
 1. **Sync regularly**: It is recommended to manually sync periodically to ensure your data is up to date
@@ -240,8 +222,6 @@ If multiple devices modify the same record simultaneously:
 4. **Account security**: Protect your sign-in account to prevent unauthorized access
 5. **Multi-device management**: If you use multiple devices, it is recommended to periodically check the sync status
 
----
-
 ## ⚠️ Important Notes
 
 1. **Sign-in required**: Cloud backup requires signing in — it cannot be used without an account
@@ -249,7 +229,5 @@ If multiple devices modify the same record simultaneously:
 3. **Data security**: Please safeguard your sign-in account to prevent unauthorized access
 4. **Sync delay**: Syncing may have some delay and is not instantaneous
 5. **Data recovery**: Deleted data cannot be recovered — please proceed with caution
-
----
 
 **Last updated**: September 2026

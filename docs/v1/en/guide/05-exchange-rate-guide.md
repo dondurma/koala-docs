@@ -4,8 +4,6 @@
 
 Expense Tracker: Koala ("Koala") supports multi-currency bookkeeping and provides real-time exchange rate lookup and switching. This guide will help you understand how to switch exchange rates, set the base currency, and how exchange rates affect bill display.
 
----
-
 ## 💰 What Is the Base Currency?
 
 The **base currency** is the primary currency of your ledger. It is used for:
@@ -17,8 +15,6 @@ The **base currency** is the primary currency of your ledger. It is used for:
 > 💡 **Example**:
 > - If your base currency is CNY (Chinese Yuan), all bill amounts will be displayed in CNY
 > - Even if you record a bill of 100 USD, the system will automatically convert it to CNY for display (e.g., 720 CNY)
-
----
 
 ## 🚀 How to Change the Base Currency
 
@@ -55,8 +51,6 @@ The **base currency** is the primary currency of your ledger. It is used for:
 > - Changing the ledger currency is the same as changing the base currency
 > - The change will affect the display of all bills in that ledger
 
----
-
 ## 📊 Exchange Rate List
 
 ### Viewing the Exchange Rate List
@@ -88,8 +82,6 @@ The system updates exchange rates at the following times:
 > - If the network is unavailable, cached exchange rate data will be used
 > - It is recommended to refresh periodically to ensure rate accuracy
 
----
-
 ## 💱 How Exchange Rates Affect Bills
 
 ### Amount Display
@@ -113,8 +105,6 @@ All statistics and chart data are based on the base currency:
 > - However, the original transaction amounts are not altered
 > - The system uses the **current exchange rate** for conversion display (so after refreshing rates, the converted display of historical bills may also update)
 
----
-
 ## 🔄 Exchange Rate Caching
 
 ### Cache Details
@@ -132,8 +122,6 @@ The system clears the cache in the following situations:
 - **When changing the base currency**: Clears all exchange rate caches
 - **When manually refreshing**: Clears the old cache and fetches new data
 - **When the ledger currency is updated**: Clears the exchange rate cache for that ledger
-
----
 
 ## ⚙️ Exchange Rate Settings
 
@@ -158,8 +146,6 @@ The system supports the following exchange rate precision levels:
 - **Display precision**: The exchange rate list typically displays multiple decimal places
 - **Calculation precision**: Internal calculations use higher precision
 - **Amount display**: Final amounts are typically displayed with 2 decimal places
-
----
 
 ## 🔧 FAQ
 
@@ -205,8 +191,6 @@ The system supports the following exchange rate precision levels:
 
 **A:** No. Each ledger has its own independent base currency setting — changing the base currency of one ledger does not affect other ledgers.
 
----
-
 ## 💡 Tips
 
 1. **Choose the right base currency**: Select a base currency that matches your primary transaction currency to minimize conversion errors
@@ -214,7 +198,5 @@ The system supports the following exchange rate precision levels:
 3. **Use multiple ledgers**: If you frequently deal with multiple currencies, consider creating separate ledgers with different base currencies
 4. **Manual adjustments**: If the automatic exchange rate is inaccurate, you can adjust it manually, but it is recommended to check periodically
 5. **Back up data**: It is recommended to regularly back up important ledgers in case exchange rate data is lost
-
----
 
 **Last updated**: September 2026

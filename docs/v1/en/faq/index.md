@@ -2,8 +2,6 @@
 
 This page collects the most common questions and quick fixes when using Expense Tracker: Koala (“Koala”). If something goes wrong, start here.
 
----
-
 ## Bill Import
 
 ### Q: What bill sources are supported? Which file formats can I import?
@@ -77,8 +75,6 @@ Recommendation: on the preview page, verify **type (income/expense)** and **amou
 - For large histories, export multiple files and import them one by one.
 - Keep Koala in the foreground during import to reduce interruptions.
 
----
-
 ## Multiple Ledgers
 
 ### Q: My data “disappeared” after switching ledgers.
@@ -97,8 +93,6 @@ Recommendation: open **Ledger management** to confirm the current ledger, then c
 ### Q: What happens when I delete a ledger? Can I restore it?
 
 **A:** Deleting a ledger removes it from this device. If cloud sync is enabled, the deletion will also be applied to the cloud after a sync. It cannot be restored inside the app, so please double-check before deleting.
-
----
 
 ## Currency & Exchange Rates
 
@@ -121,8 +115,6 @@ Recommendation: open **Ledger management** to confirm the current ledger, then c
 1. Check your network connection
 2. Try again later
 3. If you edited rates manually, verify the values are what you expect
-
----
 
 ## Cloud Backup & Sync
 
@@ -158,8 +150,6 @@ During manual sync, keep the app in the foreground until it finishes.
 - **Signed in and synced**: reinstall and sign in with the same account, then wait for sync to restore data
 - **Not signed in**: data is local-only, and uninstalling will remove it permanently
 
----
-
 ## Membership & Pricing
 
 ### Q: Which features require a membership?
@@ -185,8 +175,6 @@ Free users can store up to **1000** bills in total; members have no limit.
 **A:** Because I want Koala to be a long-term product that keeps improving, not a one-off transaction.
 
 A membership model supports sustainable development: ongoing bug fixes, experience improvements, and continuous adaptation to OS updates and new devices, plus long-term investment in capabilities like sync, data safety, and performance. That way, you get an app that keeps getting better over time, instead of risking slow updates and unsustainable maintenance after a buyout.
-
----
 
 ## Feedback & Support
 

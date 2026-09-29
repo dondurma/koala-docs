@@ -12,8 +12,6 @@ To protect your rights, please read this Agreement carefully before purchasing, 
 
 【General terms】This Agreement is a general template and may be updated to reflect changes in applicable laws and regulations, platform rules (such as the Apple App Store), or product features. If you do not agree to this Agreement or any future updates, please stop purchasing or using the Membership Service immediately.
 
----
-
 ## 1. Definitions and parties
 
 1.1 “Expense Tracker: Koala” (or “Koala”, “the App”) refers to the bookkeeping application operated by an independent individual developer and any related services.

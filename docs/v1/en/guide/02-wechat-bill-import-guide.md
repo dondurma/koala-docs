@@ -4,8 +4,6 @@
 
 This guide walks you through exporting bills from WeChat and importing them into Expense Tracker: Koala (“Koala”).
 
----
-
 ## 📱 Part 1: Export bills in WeChat
 
 ### Step 1: Open the Bills page
@@ -48,8 +46,6 @@ This guide walks you through exporting bills from WeChat and importing them into
 > 📝 Where the file usually goes:
 > - iOS: Files app → Downloads
 > - Android: Downloads folder or WeChat folder
-
----
 
 ## 📱 Part 2: Import into Expense Tracker: Koala
 
@@ -112,8 +108,6 @@ On the preview page, you can:
 2. Tap **Import**
 3. Wait for the import to complete
 
----
-
 ## 📋 WeChat file columns (reference)
 
 WeChat exports typically contain columns like:
@@ -133,8 +127,6 @@ WeChat exports typically contain columns like:
 | 备注 | Note | 备注内容 |
 
 Excel exports have the same columns; only the file format is different.
-
----
 
 ## ⚠️ Notes
 
@@ -169,8 +161,6 @@ Koala identifies columns by **header name** (column order does not matter) and m
 ### 5. Avoid manual edits to the export file
 
 Do not modify the exported file (especially headers/columns). Renaming headers, deleting columns, or adding columns may cause parsing to fail.
-
----
 
 ## 🔧 FAQ
 
@@ -221,15 +211,11 @@ There is no strict limit, but it’s recommended to:
 2. Split large ranges into multiple files
 3. Keep the app in the foreground during import
 
----
-
 ## 💡 Tips
 
 1. Import regularly (e.g. monthly) to keep data up to date
 2. Review categories after import for better statistics
 3. Create common accounts ahead of time to avoid messy auto-created names
 4. Consider backing up your data before importing
-
----
 
 **Last updated**: September 2026

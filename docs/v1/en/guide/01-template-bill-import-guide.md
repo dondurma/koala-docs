@@ -10,14 +10,10 @@ Expense Tracker: Koala (“Koala”) supports importing bills from external file
 - **Pixiu bill import**: import a CSV file exported from Pixiu
 - **iCost bill import**: import an Excel file exported from iCost
 
----
-
 ## 📁 Supported File Formats
 
 - **CSV** (`.csv`): Alipay, Pixiu, Template
 - **Excel** (`.xlsx`, `.xls`): WeChat, iCost
-
----
 
 ## 🚀 Quick Start
 
@@ -89,8 +85,6 @@ After parsing succeeds, you can do the following on the preview page:
 
 > ✅ **Import successful**: All valid records have been imported into the ledger. You can view them in the bill list.
 
----
-
 ## 📝 Template CSV Format
 
 To import via template file, prepare a CSV in the format below.
@@ -129,8 +123,6 @@ Transaction Date,Transaction Type,Parent Category,Child Category,Income Amount,E
 2. The system generates a CSV template with **only the header row** in the current app language, then opens the system share/save sheet
 3. Fill in your data row by row under the headers, then return to the import page and select the file to import
 
----
-
 ## ⚠️ Notes
 
 ### 1. Data Format Requirements
@@ -159,8 +151,6 @@ Before import, the system automatically validates data:
 - After import, manually trigger a data sync
 
 > 💡 **Tip**: Free users can store up to 1000 bills in total across all ledgers; members have no limit. If you have a large data set, check your remaining bill quota before importing.
-
----
 
 ## 🔧 FAQ
 
@@ -192,22 +182,16 @@ Before import, the system automatically validates data:
 
 **A:** Not at this time. You can only import one file per session. If you need to import multiple files, do them one by one.
 
----
-
 ## 📚 Related Guides
 
 - [WeChat Bill Import](./02-wechat-bill-import-guide)
 - [Alipay Bill Import](./03-alipay-bill-import-guide)
 - [Multi-ledger](./04-multi-ledger-guide)
 
----
-
 ## 💡 Tips
 
 - Back up existing data before importing
 - Verify data correctness after import
 - If you have questions, contact the developer via the "Feedback" feature
-
----
 
 **Last updated**: September 2026

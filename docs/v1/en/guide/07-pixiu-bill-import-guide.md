@@ -6,8 +6,6 @@ This guide shows how to export bills from **Pixiu** and import them into **Expen
 
 Koala currently supports **Pixiu CSV exports** (CSV only).
 
----
-
 ## 📱 Part 1: Export in Pixiu
 
 The menu name may vary by Pixiu version, but the flow is the same: go to export, choose a date range, export as CSV, then save the file.
@@ -32,8 +30,6 @@ The menu name may vary by Pixiu version, but the flow is the same: go to export,
 1. Choose export format: **CSV**
 2. Save the exported CSV file to your device (or share → Save to Files)
 3. Remember the file location for import
-
----
 
 ## 📱 Part 2: Import into Expense Tracker: Koala
 
@@ -73,8 +69,6 @@ The menu name may vary by Pixiu version, but the flow is the same: go to export,
 1. Tap **Import** after confirming everything looks correct
 2. Wait for import to finish
 
----
-
 ## 📋 Pixiu CSV format (reference)
 
 How Koala recognizes a Pixiu CSV:
@@ -109,16 +103,12 @@ How Koala recognizes a Pixiu CSV:
 - Note → note
 - Currency code → bill currency (matched by code; falls back to the ledger currency if not matched)
 
----
-
 ## ⚠️ Notes
 
 1. **No automatic deduplication**: Importing the same file twice will create duplicate bills. Avoid importing the same time range repeatedly.
 2. **Category matching**: Koala matches by “parent + child” names. If matching fails, the preview page will show it as incomplete; select the correct category before importing.
 3. **Account validity**: If the account name is empty or only symbols, it may be treated as invalid and require you to fill it in.
 4. **CSV encoding**: UTF-8 and GBK are supported. If you see garbled text, re-export as UTF-8 or convert the encoding and import again.
-
----
 
 ## 🔧 FAQ
 
@@ -141,7 +131,5 @@ Check:
 ### Q3: Categories don’t match.
 
 On the preview page, tap a record and select the correct category manually; or create categories in Koala with the same names as in the Pixiu export, then parse again.
-
----
 
 **Last updated**: September 2026

@@ -4,8 +4,6 @@
 
 This guide shows you how to export bills from Alipay and import them into Expense Tracker: Koala (“Koala”).
 
----
-
 ## 📱 Part 1: Export bills in Alipay
 
 ### Step 1: Open the Bills page
@@ -46,8 +44,6 @@ This guide shows you how to export bills from Alipay and import them into Expens
 > 📝 Where the file usually goes:
 > - iOS: Files app → Downloads
 > - Android: Downloads folder or Alipay folder
-
----
 
 ## 📱 Part 2: Import into Expense Tracker: Koala
 
@@ -120,8 +116,6 @@ After parsing, you can:
 
 > ✅ **Import successful**: All valid records have been imported into your ledger. You can view them in the bill list.
 
----
-
 ## 📋 Alipay CSV columns (reference)
 
 Alipay’s CSV export typically contains:
@@ -142,8 +136,6 @@ Alipay’s CSV export typically contains:
 | 备注 | Note | 备注内容 |
 
 > 📝 Note: Column names may vary slightly by Alipay version, but the meaning is the same.
-
----
 
 ## ⚠️ Notes
 
@@ -191,8 +183,6 @@ Koala identifies columns by **header name** (column order does not matter) and m
 ### 7. Avoid manual edits to the export file
 
 Do not modify the exported file (especially headers/columns). Renaming headers, deleting columns, or adding columns may cause parsing to fail.
-
----
 
 ## 🔧 FAQ
 
@@ -247,8 +237,6 @@ There is no strict limit, but it’s recommended to:
 
 Alipay currently exports bills in CSV. If Excel export becomes available, the guide will be updated.
 
----
-
 ## 💡 Tips
 
 1. Import regularly (e.g. monthly) to keep data up to date
@@ -256,7 +244,5 @@ Alipay currently exports bills in CSV. If Excel export becomes available, the gu
 3. Create common accounts ahead of time to avoid messy auto-created names
 4. Consider backing up your data before importing
 5. Review refund records after import
-
----
 
 **Last updated**: September 2026

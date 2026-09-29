@@ -6,8 +6,6 @@ You can export bills as a CSV file for backup, or to migrate them to another boo
 
 > ⚠️ **Membership feature**: Bill export requires a membership. Free users can learn about it and subscribe on the membership page — see the Membership Guide for details.
 
----
-
 ## 🚀 How to Export
 
 1. Open Expense Tracker: Koala and go to **“Settings”**
@@ -19,8 +17,6 @@ You can export bills as a CSV file for backup, or to migrate them to another boo
 4. Tap **“Export”** in the top-right corner
 5. Koala generates a CSV file and opens the system share/save sheet, so you can save it locally or send it to another app
 
----
-
 ## 📄 Export Format
 
 - Currently **only CSV export** is supported
@@ -29,15 +25,11 @@ You can export bills as a CSV file for backup, or to migrate them to another boo
 
 > 📝 **Note**: The export uses headers in the current app language; you can open it directly in spreadsheet software (such as Excel / Numbers) or save it as Excel.
 
----
-
 ## ⚠️ Notes
 
 - Deleted bills are not exported; **the split container (original bill) is not exported** — only the sub-bills after splitting are exported
 - Refund records are exported with a negative amount; reimbursement deposits are exported as an income record
 - If you don’t specify a “Specific account”, bills for all accounts in the selected ledger are exported
-
----
 
 ## 🔧 FAQ
 
@@ -53,13 +45,9 @@ It is determined by “time range + specific account + specific ledger”; if no
 
 Yes. The export headers are consistent with the “Template Bill Import” headers, so you can re-import it following the Template Bill Import Guide (review it on the preview page before importing to avoid duplicate data).
 
----
-
 ## 📚 Related Guides
 
 - [Template Bill Import Guide](./01-template-bill-import-guide)
 - [Membership Guide](./19-membership-guide)
-
----
 
 **Last updated**: September 2026

@@ -6,8 +6,6 @@ This guide shows how to export bills from **iCost** and import them into **Expen
 
 Expense Tracker: Koala (“Koala”) supports **iCost Excel export** (`.xlsx` or `.xls`). CSV exported from iCost is not supported.
 
----
-
 ## 📱 Part 1: Export in iCost
 
 Menu names may differ across versions:
@@ -20,8 +18,6 @@ Menu names may differ across versions:
 6. Export and save the file
 
 > ⚠️ Important: If you export as CSV, Koala will show a message that CSV is not supported.
-
----
 
 ## 📱 Part 2: Import into Expense Tracker: Koala
 
@@ -61,8 +57,6 @@ Menu names may differ across versions:
 1. Tap **Import** after confirming everything looks correct
 2. Wait for import to finish
 
----
-
 ## 📋 iCost Excel format (how Koala reads it)
 
 How Koala recognizes an iCost Excel file:
@@ -99,8 +93,6 @@ How Koala recognizes an iCost Excel file:
 - Currency code → currency (matched by code; falls back to the ledger's default currency)
 - Tags → tags (parsed/created and linked)
 
----
-
 ## ⚠️ Notes
 
 1. **Excel only**: iCost CSV files cannot be imported.
@@ -108,8 +100,6 @@ How Koala recognizes an iCost Excel file:
 3. **Header names**: Parsing relies on the header names being mappable to fields such as “date / type / amount”; if they can't be recognized, Koala prompts “header not found” or opens the field mapping confirmation page.
 4. **Empty account handling**: If the account column is empty, Koala uses a default account as a fallback. Consider filling in accounts in iCost, or batch-edit accounts in the preview page.
 5. **Category matching**: Koala matches by “parent + child” names. If matching fails, the preview page will show it as incomplete; select the correct category before importing.
-
----
 
 ## 🔧 FAQ
 
@@ -131,8 +121,6 @@ This is expected if the “Account” column is empty. Koala uses a default acco
 
 On the preview page, tap a record and select the correct category manually; or create categories in Koala with the same names as in the iCost export, then parse again.
 
----
-
 ## 📚 Related Guides
 
 - [Template Bill Import (CSV)](./01-template-bill-import-guide)
@@ -140,7 +128,5 @@ On the preview page, tap a record and select the correct category manually; or c
 - [Alipay Bill Import](./03-alipay-bill-import-guide)
 - [Pixiu Bill Import](./07-pixiu-bill-import-guide)
 - [Multi-ledger](./04-multi-ledger-guide)
-
----
 
 **Last updated**: September 2026

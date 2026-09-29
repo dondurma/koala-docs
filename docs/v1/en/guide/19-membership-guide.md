@@ -4,8 +4,6 @@
 
 Expense Tracker: Koala offers a membership subscription that unlocks advanced capabilities such as multiple ledgers, multi-currency, bill export, bill splitting, and scheduled accounting. At the same time, free users can still use core features such as bookkeeping, cloud sync, quick entry, and reimbursements.
 
----
-
 ## 💎 Membership Benefits
 
 With a membership, you can unlock:
@@ -18,8 +16,6 @@ With a membership, you can unlock:
 - **Unlimited entries**: no free-tier bill limit
 
 **Quick entry, cloud sync, bill reimbursement, and refunds** are available to all users — no membership required.
-
----
 
 ## 🆓 Member / Free Comparison
 
@@ -36,8 +32,6 @@ With a membership, you can unlock:
 | Bill limit | Unlimited | 1000 bills |
 
 > 📝 Free users can store up to **1000** bills in total (across all ledgers); once you reach the limit, you need a membership to keep recording.
-
----
 
 ## 🚀 Subscribe and Restore
 
@@ -58,20 +52,14 @@ After switching devices or reinstalling: enter the membership page and tap **“
 
 Subscriptions are managed by the App Store and can be canceled under your system **“Settings → Apple ID → Subscriptions”**. After canceling, you can still use your membership benefits for the current paid period; it will not renew when it expires.
 
----
-
 ## 🔄 Membership Status
 
 - The membership validity period is subject to the App Store subscription status
 - If your benefits don’t take effect after “Restore Purchases”, make sure you are signed in with the same Apple account used for the purchase, and try again later
 
----
-
 ## ⚖️ Related Agreements
 
 See the [Membership Service Agreement](../legal/membership) for the detailed terms of the Membership Service.
-
----
 
 ## 🔧 FAQ
 
@@ -86,7 +74,5 @@ Free users can use features such as bookkeeping, cloud sync, quick entry, reimbu
 ### Q3: Is my membership still valid after switching phones?
 
 The subscription status is stored by the App Store. After switching devices or reinstalling, sign in with the Apple account you used for the purchase and tap “Restore Purchases” to restore it.
-
----
 
 **Last updated**: September 2026
