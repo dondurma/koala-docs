@@ -61,13 +61,28 @@ The system automatically syncs data at the following times:
 
 In the upper-right corner of the Settings page, **double-tap** the cloud sync icon (cloud icon) to open the “Cloud Sync Status” overlay, which shows the current sync state at a glance:
 
-- Grouped by category: bills, accounts, ledgers, categories, tags, transfers
+- Grouped by category: bills, accounts, ledgers, categories, tags, tag groups, transfers, mood records
 - Each category shows the “synced count” and “pending count”, with an icon indicating whether the category is fully synced
 - Tap outside the overlay to close it
 
 > 💡 **Tip**:
 > - **Tap once** the cloud icon = manual sync; **double-tap** the cloud icon = view sync status
 > - A “pending” count of 0 for a category (green check) means that category is fully synced
+
+### Unsynced Indicator (Red Dot)
+
+A **red dot** appears on the cloud icon in the upper-right corner of the Settings page to remind you that some data has not finished syncing:
+
+- **No red dot**: all categories are fully synced
+- **Red dot shown**: any category still has a “pending count”
+
+> 💡 **Notes**:
+> - The red dot uses exactly the same logic as the double-tap overlay: if any row in the overlay has a non-zero “pending” count, the icon shows the red dot; when every row is 0, the red dot disappears
+> - Counts are scoped to the **current ledger** (bills, categories, tags, and tag groups are counted for the current ledger)
+> - The red dot refreshes automatically when you enter the Settings page, switch back to it, finish a manual sync, switch ledgers, sign in or out, and when a background sync completes; while you stay on the Settings page, it also updates automatically after a local change triggers an automatic sync
+> - While a sync is in progress the icon shows a loading animation, and no red dot is shown
+> - To see which data is not yet synced, **double-tap** the cloud icon to open the “Cloud Sync Status” overlay
+> - When you are not signed in (guest), any local data counts as unsynced and the red dot is shown; it disappears after you sign in and the sync completes
 
 ## 📊 Synced Content
 

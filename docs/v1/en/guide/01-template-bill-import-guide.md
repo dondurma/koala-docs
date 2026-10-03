@@ -150,7 +150,7 @@ Before import, the system automatically validates data:
 - Keep the app in the foreground during import
 - After import, manually trigger a data sync
 
-> 💡 **Tip**: Free users can store up to 1000 bills in total across all ledgers; members have no limit. If you have a large data set, check your remaining bill quota before importing.
+> 💡 **Tip**: Free users can store up to 500 bills in total across all ledgers; members have no limit. If you have a large data set, check your remaining bill quota before importing.
 
 ## 🔧 FAQ
 
