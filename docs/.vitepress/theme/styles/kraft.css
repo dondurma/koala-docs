@@ -9,11 +9,12 @@
  * 作用域限定 html.kraft，不污染 light / dark。
  */
 html.kraft {
-  /* 中性面 */
-  --vp-c-bg: #f2e8cf;
+  /* 中性面：页面底取深色牛皮纸、卡片层取浅色牛皮纸，方向与 App 一致
+     （App surfaceBase #D6C3A9 / surface #F2E8CF，见 app_color_scheme.dart KraftAppColorScheme） */
+  --vp-c-bg: #d6c3a9;
   --vp-c-bg-alt: #e9dbbe;
   --vp-c-bg-elv: #e9dbbe;
-  --vp-c-bg-soft: #e5d8c2;
+  --vp-c-bg-soft: #f2e8cf;
   --vp-c-border: #c8b092;
   --vp-c-divider: #bca080;
   --vp-c-gutter: #bca080;
@@ -25,8 +26,8 @@ html.kraft {
   --vp-c-text-2: #585248;
   --vp-c-text-3: #686258;
 
-  /* 品牌 */
-  --vp-c-brand-1: var(--koala-brand, #8a6a3b);
+  /* 品牌（brand-1 兼作正文链接色：深纸底上 #8a6a3b 仅 2.91:1，调深至 #63481f 约 4.94:1 达 AA） */
+  --vp-c-brand-1: var(--koala-brand, #63481f);
   --vp-c-brand-2: #9c7a48;
   --vp-c-brand-3: #ad8a55;
   --vp-c-brand-soft: rgba(138, 106, 59, 0.16);

@@ -38,17 +38,22 @@ If you have any questions or suggestions, feel free to reach out.
   align-items: center;
   gap: 14px;
   padding: 18px 22px;
-  border: 1px solid var(--vp-c-divider);
   border-radius: 20px;
+  background-color: var(--vp-c-bg-soft);
   text-decoration: none;
   color: var(--vp-c-text-1);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .contact-card:hover {
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+  background-color: var(--vp-c-bg-soft-up, var(--vp-c-bg-soft));
   transform: translateY(-1px);
+}
+
+/* 牛皮纸 + 复古字体：倒角对齐主页导航卡片（2px）；其余主题保持 20px。
+   注意：此处不可用 :global()，scoped 下 :global(X) Y 会被编译成 X，后代选择器 Y 丢失。 */
+html.kraft.retro-font .contact-card {
+  border-radius: 2px;
 }
 
 .contact-icon {

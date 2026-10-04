@@ -1,0 +1,24 @@
+/**
+ * 补全 VitePress 默认主题未定义、但本站软容器 hover 引用的表层色变量。
+ *
+ * `--vp-c-bg-soft-up` 被主页导航卡片与「联系我」卡片的 :hover 引用；默认主题未定义它，
+ * 变量缺失时 background-color 退化为 transparent，卡片悬停会露出页面底色
+ * （kraft 换深底后尤为明显，卡片看似「消失」）。
+ * 此处按三态各补一个「比 --vp-c-bg-soft 明显一档」的值。
+ * 来源：《App主题与复古字体传入在线文档实现方案》§8.4 遗留观察
+ * （决策与方案见《koala-docs牛皮纸第三主题接入方案》§8.1 D7，2026-10-04 已解决）。
+ */
+:root {
+  /* light：比 --vp-c-bg-soft(#f6f6f7) 深一档 */
+  --vp-c-bg-soft-up: #ebebec;
+}
+
+html.dark {
+  /* dark：比 --vp-c-bg-soft(#202127) 亮一档 */
+  --vp-c-bg-soft-up: #2a2b33;
+}
+
+html.kraft {
+  /* kraft：卡片浅底上深一档（同 App surfaceMood #E9DBBE） */
+  --vp-c-bg-soft-up: #e9dbbe;
+}

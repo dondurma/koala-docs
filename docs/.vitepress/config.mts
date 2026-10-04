@@ -9,7 +9,7 @@ export default defineConfig({
   // 内置开关不再渲染，.dark 类改由 theme/appearance.ts 的首屏脚本与运行时管理。
   appearance: false,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     // 首屏防闪：样式生效前同步落类名（唯一来源见 theme/appearance.ts）
     ['script', {}, HEAD_SCRIPT],
   ],
