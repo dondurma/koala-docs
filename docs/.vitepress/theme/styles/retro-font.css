@@ -1,0 +1,68 @@
+/**
+ * 复古字体（打字机 + 旧铅字）样式。
+ *
+ * 对应方案 §3.5：字体按语言子集化，仅 `html.retro-font` 时被引用，默认访客不下载。
+ * 字族命名与 App 的 FontTokens 语义对齐（latin=打字机 / han=汇文明朝 / ja=Zen / ko=Nanum）。
+ * 字体文件由 `npm run fonts:subset` 生成，输出至 docs/public/fonts/。
+ */
+@font-face {
+  font-family: 'KoalaRetroLatin';
+  src: url('/fonts/koala-retro-latin.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KoalaRetroLatin';
+  src: url('/fonts/koala-retro-latin-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KoalaRetroLatin';
+  src: url('/fonts/koala-retro-latin-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KoalaRetroHan';
+  src: url('/fonts/koala-retro-han.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KoalaRetroJa';
+  src: url('/fonts/koala-retro-ja.woff2') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'KoalaRetroKo';
+  src: url('/fonts/koala-retro-ko.woff2') format('woff2');
+  font-display: swap;
+}
+
+/* 按语言只引用该语言的 CJK 字族，避免 zh 页下载日 / 韩字库。
+   语言标记用自管的 data-koala-lang（见 appearance.ts LANG_ATTR），
+   不复用 <html lang>——VitePress hydration 会把它覆写为 en-US（D13）。 */
+html.retro-font[data-koala-lang='zh'] {
+  --vp-font-family-base: 'KoalaRetroLatin', 'KoalaRetroHan', serif;
+}
+html.retro-font[data-koala-lang='zh-HK'] {
+  --vp-font-family-base: 'KoalaRetroLatin', 'KoalaRetroHan', serif;
+}
+html.retro-font[data-koala-lang='ja'] {
+  --vp-font-family-base: 'KoalaRetroLatin', 'KoalaRetroJa', 'KoalaRetroHan', serif;
+}
+html.retro-font[data-koala-lang='ko'] {
+  --vp-font-family-base: 'KoalaRetroLatin', 'KoalaRetroKo', 'KoalaRetroHan', serif;
+}
+html.retro-font[data-koala-lang='en'] {
+  --vp-font-family-base: 'KoalaRetroLatin', serif;
+}
+
+/* 代码块保持等宽，不套复古衬线，避免混排可读性下降 */
+html.retro-font code,
+html.retro-font pre {
+  font-family: var(--vp-font-family-mono);
+}

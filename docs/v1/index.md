@@ -2,6 +2,15 @@
 
 本页用于快速浏览 v1 文档。你可以通过右上角导航切换语言版本。
 
+## 下载 App
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./zh/help/download-app">
+    <div :class="$style.title">下载考拉记账</div>
+    <div :class="$style.desc">扫码前往 App Store 下载</div>
+  </a>
+</div>
+
 ## 用户指南
 
 ### 账单导入
@@ -99,6 +108,14 @@
     <div :class="$style.title">版本记录</div>
     <div :class="$style.desc">新增功能与问题修复</div>
   </a>
+  <a :class="$style.card" href="./zh/help/icon-request">
+    <div :class="$style.title">找不到合适的icon？</div>
+    <div :class="$style.desc">想要的图标可以邮件告诉我</div>
+  </a>
+  <a :class="$style.card" href="./zh/help/category-keywords">
+    <div :class="$style.title">图标与关键词说明</div>
+    <div :class="$style.desc">图标反馈与关键词使用说明</div>
+  </a>
 </div>
 
 <style module>
@@ -112,18 +129,21 @@
 .card {
   display: block;
   padding: 14px 16px;
-  border: 1px solid var(--vp-c-border);
   border-radius: 20px;
   background-color: var(--vp-c-bg-soft);
   text-decoration: none !important;
-  transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .card:hover {
-  border-color: #FFB300;
   background-color: var(--vp-c-bg-soft-up);
   text-decoration: none !important;
   transform: translateY(-1px);
+}
+
+/* 牛皮纸 + 复古字体：导航卡片倒角对齐 App 小档（2px）；其余主题保持 20px */
+:global(html.kraft.retro-font) .card {
+  border-radius: 2px;
 }
 
 .title {

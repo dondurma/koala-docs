@@ -29,9 +29,9 @@ With a membership, you can unlock:
 | Bill splitting | ✅ | ❌ |
 | Reimbursement | ✅ | ✅ |
 | Scheduled accounting | ✅ | ❌ |
-| Bill limit | Unlimited | 500 bills |
+| Bill limit | Unlimited | 300 bills |
 
-> 📝 Free users can store up to **500** bills in total (across all ledgers); once you reach the limit, you need a membership to keep recording.
+> 📝 Free users can store up to **300** bills in total (across all ledgers); once you reach the limit, you need a membership to keep recording.
 
 ## 🚀 Subscribe and Restore
 
@@ -69,7 +69,7 @@ A membership model supports long-term, sustainable maintenance: ongoing bug fixe
 
 ### Q2: What are the limitations for free users?
 
-Free users can use features such as bookkeeping, cloud sync, quick entry, reimbursements, and refunds, but the total number of bills is limited to 500, and multiple ledgers, multi-currency, bill export, bill splitting, and scheduled accounting are not available.
+Free users can use features such as bookkeeping, cloud sync, quick entry, reimbursements, and refunds, but the total number of bills is limited to 300, and multiple ledgers, multi-currency, bill export, bill splitting, and scheduled accounting are not available.
 
 ### Q3: Is my membership still valid after switching phones?
 

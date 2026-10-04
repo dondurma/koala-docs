@@ -1,0 +1,41 @@
+/**
+ * 牛皮纸（kraft）第三主题：CSS 变量覆盖。
+ *
+ * 来源：koala-tec-doc《koala-docs牛皮纸第三主题接入方案》§3.2，
+ * 色值同源于 App 的 KraftAppColorScheme（页面底 #D6C3A9 / 卡片 #F2E8CF）。
+ * 注意：App 色板变更时此处必须同步（跨仓库无法共享常量）。
+ *
+ * 只覆盖「中性面 + 品牌 + 代码块 + 次级按钮」四组；语义色族与固定色板不动。
+ * 作用域限定 html.kraft，不污染 light / dark。
+ */
+html.kraft {
+  /* 中性面 */
+  --vp-c-bg: #f2e8cf;
+  --vp-c-bg-alt: #e9dbbe;
+  --vp-c-bg-elv: #e9dbbe;
+  --vp-c-bg-soft: #e5d8c2;
+  --vp-c-border: #c8b092;
+  --vp-c-divider: #bca080;
+  --vp-c-gutter: #bca080;
+  --vp-c-neutral: #2b2620;
+  --vp-c-neutral-inverse: #f2e8cf;
+
+  /* 文本 */
+  --vp-c-text-1: #2b2620;
+  --vp-c-text-2: #585248;
+  --vp-c-text-3: #686258;
+
+  /* 品牌 */
+  --vp-c-brand-1: var(--koala-brand, #8a6a3b);
+  --vp-c-brand-2: #9c7a48;
+  --vp-c-brand-3: #ad8a55;
+  --vp-c-brand-soft: rgba(138, 106, 59, 0.16);
+
+  /* 代码块与次级按钮（默认冷灰在暖底上突兀） */
+  --vp-code-block-bg: #e9dbbe;
+  --vp-button-alt-bg: #e9dbbe;
+  --vp-button-alt-border: #bca080;
+  --vp-button-alt-text: #2b2620;
+  --vp-button-alt-hover-bg: #e1d0b2;
+  --vp-button-alt-hover-border: #bca080;
+}

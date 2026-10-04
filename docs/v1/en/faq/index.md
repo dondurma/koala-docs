@@ -164,7 +164,7 @@ During manual sync, keep the app in the foreground until it finishes.
 
 Features available to all users include: quick entry, cloud sync, bill reimbursement, and refunds.
 
-Free users can store up to **500** bills in total; members have no limit.
+Free users can store up to **300** bills in total; members have no limit.
 
 ### Q: How do I subscribe to a membership or restore a purchase?
 

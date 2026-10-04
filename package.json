@@ -18,11 +18,13 @@
   "homepage": "https://github.com/dondurma/koala-docs#readme",
   "description": "",
   "devDependencies": {
+    "subset-font": "^2.9.0",
     "vitepress": "^1.6.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "fonts:subset": "node scripts/subset-fonts.mjs"
   }
 }

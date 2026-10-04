@@ -1,3 +1,12 @@
+## アプリを入手
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/download-app">
+    <div :class="$style.title">コアラ家計簿をダウンロード</div>
+    <div :class="$style.desc">QR コードから App Store でダウンロード</div>
+  </a>
+</div>
+
 ## ガイド
 
 ### 明細のインポート
@@ -132,6 +141,14 @@
     <div :class="$style.title">お問い合わせ</div>
     <div :class="$style.desc">メールとSNSの連絡先</div>
   </a>
+  <a :class="$style.card" href="./help/icon-request">
+    <div :class="$style.title">ぴったりのアイコンが見つからない？</div>
+    <div :class="$style.desc">欲しいアイコンはメールでお知らせください</div>
+  </a>
+  <a :class="$style.card" href="./help/category-keywords">
+    <div :class="$style.title">アイコンとキーワードの説明</div>
+    <div :class="$style.desc">アイコンのリクエストとキーワードの使い方</div>
+  </a>
 </div>
 
 <style module>
@@ -151,18 +168,21 @@
 .card {
   display: block;
   padding: 14px 16px;
-  border: 1px solid var(--vp-c-border);
   border-radius: 20px;
   background-color: var(--vp-c-bg-soft);
   text-decoration: none !important;
-  transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .card:hover {
-  border-color: #FFB300;
   background-color: var(--vp-c-bg-soft-up);
   text-decoration: none !important;
   transform: translateY(-1px);
+}
+
+/* 牛皮纸 + 复古字体：导航卡片倒角对齐 App 小档（2px）；其余主题保持 20px */
+:global(html.kraft.retro-font) .card {
+  border-radius: 2px;
 }
 
 .title {

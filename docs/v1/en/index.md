@@ -1,3 +1,12 @@
+## Get the App
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/download-app">
+    <div :class="$style.title">Download Expense Tracker: Koala</div>
+    <div :class="$style.desc">Scan the QR code to download on the App Store</div>
+  </a>
+</div>
+
 ## Guides
 
 ### Bill Import
@@ -132,6 +141,14 @@
     <div :class="$style.title">Contact Me</div>
     <div :class="$style.desc">Email and social media</div>
   </a>
+  <a :class="$style.card" href="./help/icon-request">
+    <div :class="$style.title">Can’t Find a Suitable Icon?</div>
+    <div :class="$style.desc">Request an icon by email</div>
+  </a>
+  <a :class="$style.card" href="./help/category-keywords">
+    <div :class="$style.title">Icons & Keywords</div>
+    <div :class="$style.desc">Icon requests and how keywords work</div>
+  </a>
 </div>
 
 <style module>
@@ -151,18 +168,21 @@
 .card {
   display: block;
   padding: 14px 16px;
-  border: 1px solid var(--vp-c-border);
   border-radius: 20px;
   background-color: var(--vp-c-bg-soft);
   text-decoration: none !important;
-  transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .card:hover {
-  border-color: #FFB300;
   background-color: var(--vp-c-bg-soft-up);
   text-decoration: none !important;
   transform: translateY(-1px);
+}
+
+/* 牛皮纸 + 复古字体：导航卡片倒角对齐 App 小档（2px）；其余主题保持 20px */
+:global(html.kraft.retro-font) .card {
+  border-radius: 2px;
 }
 
 .title {

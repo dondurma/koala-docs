@@ -1,3 +1,12 @@
+## 下載 App
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/download-app">
+    <div :class="$style.title">下載考拉記賬</div>
+    <div :class="$style.desc">掃碼前往 App Store 下載</div>
+  </a>
+</div>
+
 ## 用戶指南
 
 ### 帳單匯入
@@ -132,6 +141,14 @@
     <div :class="$style.title">聯絡我</div>
     <div :class="$style.desc">電郵與社交媒體聯絡方式</div>
   </a>
+  <a :class="$style.card" href="./help/icon-request">
+    <div :class="$style.title">找不到合適的 icon？</div>
+    <div :class="$style.desc">想要的圖標可以電郵告訴我</div>
+  </a>
+  <a :class="$style.card" href="./help/category-keywords">
+    <div :class="$style.title">圖標與關鍵詞說明</div>
+    <div :class="$style.desc">圖標反饋與關鍵詞使用說明</div>
+  </a>
 </div>
 
 <style module>
@@ -151,18 +168,21 @@
 .card {
   display: block;
   padding: 14px 16px;
-  border: 1px solid var(--vp-c-border);
   border-radius: 20px;
   background-color: var(--vp-c-bg-soft);
   text-decoration: none !important;
-  transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .card:hover {
-  border-color: #FFB300;
   background-color: var(--vp-c-bg-soft-up);
   text-decoration: none !important;
   transform: translateY(-1px);
+}
+
+/* 牛皮纸 + 复古字体：导航卡片倒角对齐 App 小档（2px）；其余主题保持 20px */
+:global(html.kraft.retro-font) .card {
+  border-radius: 2px;
 }
 
 .title {

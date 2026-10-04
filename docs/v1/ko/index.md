@@ -1,3 +1,12 @@
+## 앱 다운로드
+
+<div :class="$style.grid">
+  <a :class="$style.card" href="./help/download-app">
+    <div :class="$style.title">코알라 가계부 다운로드</div>
+    <div :class="$style.desc">QR 코드를 스캔해 App Store에서 다운로드</div>
+  </a>
+</div>
+
 ## 가이드
 
 ### 내역 가져오기
@@ -132,6 +141,14 @@
     <div :class="$style.title">문의하기</div>
     <div :class="$style.desc">이메일 및 소셜 미디어 연락처</div>
   </a>
+  <a :class="$style.card" href="./help/icon-request">
+    <div :class="$style.title">마음에 드는 아이콘이 없나요?</div>
+    <div :class="$style.desc">원하는 아이콘을 이메일로 알려주세요</div>
+  </a>
+  <a :class="$style.card" href="./help/category-keywords">
+    <div :class="$style.title">아이콘 및 키워드 안내</div>
+    <div :class="$style.desc">아이콘 요청과 키워드 사용법</div>
+  </a>
 </div>
 
 <style module>
@@ -151,18 +168,21 @@
 .card {
   display: block;
   padding: 14px 16px;
-  border: 1px solid var(--vp-c-border);
   border-radius: 20px;
   background-color: var(--vp-c-bg-soft);
   text-decoration: none !important;
-  transition: border-color 0.2s, background-color 0.2s, transform 0.2s;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .card:hover {
-  border-color: #FFB300;
   background-color: var(--vp-c-bg-soft-up);
   text-decoration: none !important;
   transform: translateY(-1px);
+}
+
+/* 牛皮纸 + 复古字体：导航卡片倒角对齐 App 小档（2px）；其余主题保持 20px */
+:global(html.kraft.retro-font) .card {
+  border-radius: 2px;
 }
 
 .title {
