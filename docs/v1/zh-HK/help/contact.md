@@ -13,11 +13,6 @@
     <span class="contact-name">小紅書</span>
     <span class="contact-value">點擊訪問</span>
   </a>
-  <a class="contact-card" href="https://x.com/Rlingers_" target="_blank">
-    <span class="contact-icon">𝕏</span>
-    <span class="contact-name">X</span>
-    <span class="contact-value">@Rlingers_</span>
-  </a>
   <a class="contact-card" href="https://www.instagram.com/shiyualro/" target="_blank">
     <span class="contact-icon">📷</span>
     <span class="contact-name">Instagram</span>

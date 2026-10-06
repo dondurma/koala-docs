@@ -2,6 +2,24 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-10-05 v1.1.0 (32)
+
+### Added
+
+1. New "Kraft Paper" theme — a vintage paper feel that gives the whole app more character.
+2. New Retro Font and Corner Radius settings, so you can adjust the style in a tap.
+3. New card backgrounds to dress up your profile page.
+4. New bill receipt: turn your bills into a beautiful receipt and share it in one tap.
+5. Improved User Guide, with a "?" help entry added to the title bar on several pages.
+6. Items now sort by how often you use them, so your favorites come first.
+7. Clearer sync status — you’ll see a hint when some data hasn’t been synced yet.
+8. Updated the app icon.
+
+### Fixed
+
+1. Greatly improved the parsing speed of bill import — no more long waits for large files.
+2. Fixed some UI and copy details.
+
 ## 2026-09-26 v1.0.7 (31)
 
 ### Fixed
