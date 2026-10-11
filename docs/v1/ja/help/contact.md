@@ -13,6 +13,11 @@
     <span class="contact-name">REDnote（小紅書）</span>
     <span class="contact-value">アクセス</span>
   </a>
+  <a class="contact-card" href="https://www.instagram.com/wylan.dev" target="_blank">
+    <span class="contact-icon">📷</span>
+    <span class="contact-name">Instagram</span>
+    <span class="contact-value">@wylan.dev</span>
+  </a>
 </div>
 
 <style scoped>
