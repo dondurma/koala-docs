@@ -13,10 +13,15 @@ If you have any questions or suggestions, feel free to reach out.
     <span class="contact-name">Xiaohongshu</span>
     <span class="contact-value">Visit</span>
   </a>
-  <a class="contact-card" href="https://www.instagram.com/shiyualro/" target="_blank">
+  <a class="contact-card" href="./wechat-official-account">
+    <span class="contact-icon">💬</span>
+    <span class="contact-name">WeChat Official Account</span>
+    <span class="contact-value">Visit</span>
+  </a>
+  <a class="contact-card" href="https://www.instagram.com/wylan.dev" target="_blank">
     <span class="contact-icon">📷</span>
     <span class="contact-name">Instagram</span>
-    <span class="contact-value">@shiyualro</span>
+    <span class="contact-value">@wylan.dev</span>
   </a>
 </div>
 

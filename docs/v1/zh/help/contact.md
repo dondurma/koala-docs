@@ -13,6 +13,11 @@
     <span class="contact-name">小红书</span>
     <span class="contact-value">点击访问</span>
   </a>
+  <a class="contact-card" href="./wechat-official-account">
+    <span class="contact-icon">💬</span>
+    <span class="contact-name">微信公众号</span>
+    <span class="contact-value">点击查看</span>
+  </a>
   <a class="contact-card" href="https://v.douyin.com/ptXn8yxX1I8/" target="_blank">
     <span class="contact-icon">🎵</span>
     <span class="contact-name">抖音</span>

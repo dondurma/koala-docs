@@ -13,6 +13,11 @@
     <span class="contact-name">REDnote（小紅書）</span>
     <span class="contact-value">アクセス</span>
   </a>
+  <a class="contact-card" href="./wechat-official-account">
+    <span class="contact-icon">💬</span>
+    <span class="contact-name">WeChat 公式アカウント</span>
+    <span class="contact-value">アクセス</span>
+  </a>
 </div>
 
 <style scoped>

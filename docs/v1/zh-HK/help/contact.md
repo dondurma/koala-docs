@@ -13,10 +13,15 @@
     <span class="contact-name">小紅書</span>
     <span class="contact-value">點擊訪問</span>
   </a>
-  <a class="contact-card" href="https://www.instagram.com/shiyualro/" target="_blank">
+  <a class="contact-card" href="./wechat-official-account">
+    <span class="contact-icon">💬</span>
+    <span class="contact-name">微信公眾號</span>
+    <span class="contact-value">點擊查看</span>
+  </a>
+  <a class="contact-card" href="https://www.instagram.com/wylan.dev" target="_blank">
     <span class="contact-icon">📷</span>
     <span class="contact-name">Instagram</span>
-    <span class="contact-value">@shiyualro</span>
+    <span class="contact-value">@wylan.dev</span>
   </a>
 </div>
 

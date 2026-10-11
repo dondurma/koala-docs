@@ -2,6 +2,22 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-10-10 v1.1.1 (33)
+
+### Added
+
+1. In grid mode, the icon now flies into the calculator when you pick a subcategory — a little more fun to use.
+
+### Fixed
+
+1. Fixed reimbursement entries occasionally duplicating or mismatching when two devices record at the same time.
+2. Fixed the subcategory panel sometimes staying on the previous category after switching categories in line mode.
+3. Fixed the Currency & Exchange Rate page showing mixed-up groups after switching languages.
+4. Fixed the profile card briefly going blank during Apple sign-in — it now shows "Signing in...".
+5. Removed the redundant "Common" entry from the income/expense picker for a cleaner category list.
+6. Fixed some interface copy.
+7. Fixed the bottom navigation bar not responding after you delete your account and re-enter the app.
+
 ## 2026-10-05 v1.1.0 (32)
 
 ### Added
