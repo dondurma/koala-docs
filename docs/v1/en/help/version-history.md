@@ -2,7 +2,7 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
-## 2026-10-10 v1.1.1 (33)
+## 2026-10-12 v1.1.1 (33)
 
 ### Added
 
