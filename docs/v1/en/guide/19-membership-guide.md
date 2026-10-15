@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-Expense Tracker: Koala offers a membership subscription that unlocks advanced capabilities such as multiple ledgers, multi-currency, bill export, bill splitting, and scheduled accounting. At the same time, free users can still use core features such as bookkeeping, cloud sync, quick entry, and reimbursements.
+Expense Tracker: Koala offers a membership subscription that unlocks advanced capabilities such as multiple ledgers, multi-currency, bill export, bill splitting, and scheduled accounting. At the same time, free users can still use core features such as bookkeeping, cloud sync, and quick entry.
 
 ## 💎 Membership Benefits
 
@@ -15,7 +15,7 @@ With a membership, you can unlock:
 - **Scheduled accounting**: automatically generate bills on a recurring schedule
 - **Unlimited entries**: no free-tier bill limit
 
-**Quick entry, cloud sync, bill reimbursement, and refunds** are available to all users — no membership required.
+**Quick entry and cloud sync** are available to all users — no membership required.
 
 ## 🆓 Member / Free Comparison
 
@@ -27,7 +27,9 @@ With a membership, you can unlock:
 | Multi-currency | ✅ | ❌ |
 | Bill export | ✅ | ❌ |
 | Bill splitting | ✅ | ❌ |
-| Reimbursement | ✅ | ✅ |
+| Reimbursement | ✅ | ❌ |
+| Refund | ✅ | ❌ |
+| Bill filter | ✅ | ❌ |
 | Scheduled accounting | ✅ | ❌ |
 | Bill limit | Unlimited | 300 bills |
 
@@ -69,10 +71,10 @@ A membership model supports long-term, sustainable maintenance: ongoing bug fixe
 
 ### Q2: What are the limitations for free users?
 
-Free users can use features such as bookkeeping, cloud sync, quick entry, reimbursements, and refunds, but the total number of bills is limited to 300, and multiple ledgers, multi-currency, bill export, bill splitting, and scheduled accounting are not available.
+Free users can use features such as bookkeeping, cloud sync, and quick entry, but the total number of bills is limited to 300, and multiple ledgers, multi-currency, bill export, bill splitting, scheduled accounting, reimbursements, refunds, and bill filter are not available.
 
 ### Q3: Is my membership still valid after switching phones?
 
 The subscription status is stored by the App Store. After switching devices or reinstalling, sign in with the Apple account you used for the purchase and tap “Restore Purchases” to restore it.
 
-**Last updated**: September 2026
+**Last updated**: October 2026

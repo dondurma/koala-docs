@@ -2,6 +2,19 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-10-14 v1.1.2 (34)
+
+### Added
+
+1. Custom account icons: pick an icon or type your own emoji when you create or edit an account.
+2. New "Keypad Haptics" switch: your number keypad gives a light vibration (turn it off anytime in Settings), and keys now show a press effect on a quick tap.
+3. Refreshed profile card backgrounds: new styles include Sparse Branch, Lush Leaves, Plain Paper, Matte Clay, Kraft Paper and Light Wood — plus a "None" option.
+
+### Fixed
+
+1. You can now remove the "Reimbursable" tag while editing a bill.
+2. If a reimbursement entry already exists, removing the "Reimbursable" tag now shows a prompt instead — keeping your records consistent.
+
 ## 2026-10-12 v1.1.1 (33)
 
 ### Added

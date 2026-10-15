@@ -161,8 +161,11 @@ During manual sync, keep the app in the foreground until it finishes.
 - Bill export
 - Bill splitting
 - Scheduled accounting
+- Reimbursement
+- Refund
+- Bill filter
 
-Features available to all users include: quick entry, cloud sync, bill reimbursement, and refunds.
+Features available to all users include: quick entry and cloud sync.
 
 Free users can store up to **300** bills in total; members have no limit.
 
