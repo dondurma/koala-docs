@@ -129,6 +129,10 @@
 ## ヘルプ
 
 <div :class="$style.grid">
+  <a :class="$style.card" href="./help/announcements">
+    <div :class="$style.title">お知らせ</div>
+    <div :class="$style.desc">製品のお知らせと重要なお知らせ</div>
+  </a>
   <a :class="$style.card" href="./help/account-deletion">
     <div :class="$style.title">アカウント削除の説明</div>
     <div :class="$style.desc">削除時の影響と注意事項</div>

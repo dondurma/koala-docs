@@ -129,6 +129,10 @@
 ## 도움말
 
 <div :class="$style.grid">
+  <a :class="$style.card" href="./help/announcements">
+    <div :class="$style.title">공지사항</div>
+    <div :class="$style.desc">제품 공지 및 중요 안내</div>
+  </a>
   <a :class="$style.card" href="./help/account-deletion">
     <div :class="$style.title">계정 삭제 안내</div>
     <div :class="$style.desc">계정 삭제 시 영향과 주의사항</div>

@@ -100,6 +100,10 @@
 ## 帮助
 
 <div :class="$style.grid">
+  <a :class="$style.card" href="./zh/help/announcements">
+    <div :class="$style.title">公告</div>
+    <div :class="$style.desc">产品公告与重要通知</div>
+  </a>
   <a :class="$style.card" href="./zh/help/account-deletion">
     <div :class="$style.title">注销账户说明</div>
     <div :class="$style.desc">注销会清空云端与本机数据</div>

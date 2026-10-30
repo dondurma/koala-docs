@@ -2,6 +2,28 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-10-28 v1.1.3 (35)
+
+### Added
+
+1. Lifetime Membership: choose monthly, yearly, or a one-time Lifetime purchase, and upgrade anytime from your membership page — pay once and it stays yours.
+2. New "Redeem Offer Code" on the membership page — enter a code and your membership is activated right away.
+3. Transfer records for an account can now be viewed month by month, with previous/next month and one-tap back to this month.
+4. All switches in the Kraft Paper theme now use a retro bracket style that fits the paper look.
+
+### Fixed
+
+1. Tapping "Done" repeatedly while splitting a bill no longer splits it twice, and a split with only one item can't be saved — your original bill stays intact.
+2. If one account has invalid data, your other accounts and transfers keep syncing instead of the whole round getting stuck, and the sync status now shows how many were skipped.
+3. Fixed some records staying "pending" and retrying over and over even though they had already synced.
+4. After you delete a bill, transfer, or account, balances and related data no longer linger or get deducted twice on your other device.
+5. The default date when you add a bill now follows the date you're viewing, so entries made in a past month show up right away.
+6. If a membership purchase can't be confirmed, the page no longer freezes — it tells you the status is syncing and returns, and you can't start a purchase while signed out anymore.
+7. Unified dialog backgrounds and button corners in dark mode — no more jarring mismatches.
+8. Some switch rows on the Settings and record screens are no longer taller than their neighbors, and the whole row is tappable.
+9. Account bill and transfer lists now show a message when loading fails, and you can tap to retry.
+10. Typing quickly in bill search no longer lets an older result overwrite the newest one.
+
 ## 2026-10-14 v1.1.2 (34)
 
 ### Added

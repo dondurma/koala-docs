@@ -129,6 +129,10 @@
 ## 幫助
 
 <div :class="$style.grid">
+  <a :class="$style.card" href="./help/announcements">
+    <div :class="$style.title">公告</div>
+    <div :class="$style.desc">產品公告與重要通知</div>
+  </a>
   <a :class="$style.card" href="./help/account-deletion">
     <div :class="$style.title">註銷帳戶說明</div>
     <div :class="$style.desc">註銷會清空雲端與本機資料</div>
