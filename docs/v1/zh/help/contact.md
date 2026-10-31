@@ -13,6 +13,11 @@
     <span class="contact-name">小红书</span>
     <span class="contact-value">点击访问</span>
   </a>
+  <a class="contact-card" href="https://www.instagram.com/wylan.dev" target="_blank">
+    <span class="contact-icon">📷</span>
+    <span class="contact-name">Instagram</span>
+    <span class="contact-value">@wylan.dev</span>
+  </a>
   <a class="contact-card" href="./wechat-official-account">
     <span class="contact-icon">💬</span>
     <span class="contact-name">微信公众号</span>
