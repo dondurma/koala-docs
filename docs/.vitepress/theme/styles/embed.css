@@ -27,3 +27,8 @@ html.app-embed .VPLocalNav {
 html.app-embed .VPLocalNavOutlineDropdown .items {
   gap: 0;
 }
+
+/* 隐藏页脚（备案号区域）上方的 1px 分割线 */
+html.app-embed .VPFooter {
+  border-top: none;
+}
