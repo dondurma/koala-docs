@@ -1,0 +1,19 @@
+/**
+ * App 内 WebView 打开文档时隐藏网页顶部导航栏。
+ *
+ * 与 appearance.ts 的 HEAD_SCRIPT 配套：URL 带 embed=1 时给 <html> 落 app-embed。
+ * 注意：--vp-nav-height 既驱动 .VPContent / .VPDoc 顶部留白，也会被 VPLocalNav
+ * 在 mounted 时读成 navHeight 快照；归零后无 outline 页面在 y=0 就满足
+ * y >= navHeight，会立刻显示「Return to top」条，故必须同时隐藏 .VPLocalNav.empty。
+ */
+html.app-embed {
+  --vp-nav-height: 0px;
+}
+
+html.app-embed .VPNav {
+  display: none;
+}
+
+html.app-embed .VPLocalNav.empty {
+  display: none;
+}

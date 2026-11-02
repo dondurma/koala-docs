@@ -1,5 +1,5 @@
 /**
- * koala-docs 外观（主题三态 + 字体两态）解析与应用。
+ * koala-docs 外观（主题三态 + 字体两态 + App 嵌入标记）解析与应用。
  *
  * 对应方案：《App主题与复古字体传入在线文档实现方案》§3.3 / §3.4 / §3.9。
  *
@@ -20,6 +20,10 @@ export const FONT_KEY = 'koala-docs-font'
 export const SESSION_APPEARANCE_KEY = 'koala-docs-session-appearance'
 /** 本次会话由 URL 参数钉住的字体 */
 export const SESSION_FONT_KEY = 'koala-docs-session-font'
+/** App 内 WebView 打开时隐藏网页顶部导航栏的会话标记 */
+export const EMBED_KEY = 'koala-docs-session-embed'
+/** App 嵌入标记落到 <html> 的类名（样式见 styles/embed.css） */
+export const EMBED_CLASS = 'app-embed'
 /** VitePress 内置外观 key，仅用于迁移老访客偏好（V2） */
 export const LEGACY_APPEARANCE_KEY = 'vitepress-theme-appearance'
 /**
@@ -192,6 +196,7 @@ export function setUserFont(f: FontMode): void {
  *
  * - 由 config.mts 的 `head` 注入，在样式生效前同步执行；
  * - 逻辑与 `resolveAppearance` 保持一致：URL 参数 > 会话 > 本地 > 旧 key > 系统；
+ * - 同一脚本处理 App 嵌入标记：URL 带 `embed=1` 时写入会话并给 <html> 加 `app-embed`；
  * - 所有存储读写包 try/catch；无语言段时 lang 兜底 zh。
  */
 export const HEAD_SCRIPT = `(function(){
@@ -205,12 +210,14 @@ export const HEAD_SCRIPT = `(function(){
   var okT=/^(system|light|dark|kraft)$/, okF=/^(retro|normal)$/;
   if(t && okT.test(t)) sw(function(){ sessionStorage.setItem(TK,t); });
   if(f && okF.test(f)) sw(function(){ sessionStorage.setItem(FK,f); });
+  if(q.get('embed')==='1') sw(function(){ sessionStorage.setItem('${EMBED_KEY}','1'); });
   var at=s(TK)||'';
   if(!at){ var lt=l(TK_L); if(lt==='dark'||lt==='light'||lt==='kraft')at=lt; }
   if(!at){ var lg=l('${LEGACY_APPEARANCE_KEY}'); if(lg==='dark')at='dark'; else if(lg==='light')at='light'; }
   if(!at || at==='system'){ at=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'; }
   var af=s(FK)||l(FK_L)||'normal';
   var e=document.documentElement;
+  if(s('${EMBED_KEY}')==='1')e.classList.add('${EMBED_CLASS}');
   if(at==='dark')e.classList.add('dark');
   if(at==='kraft')e.classList.add('kraft');
   if(af==='retro')e.classList.add('retro-font');
