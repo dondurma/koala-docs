@@ -17,3 +17,13 @@ html.app-embed .VPNav {
 html.app-embed .VPLocalNav.empty {
   display: none;
 }
+
+/* 隐藏「On this page」条底部的 1px 分割线 */
+html.app-embed .VPLocalNav {
+  border-bottom: none;
+}
+
+/* 隐藏下拉面板内「Return to top」与目录之间的 1px 分隔线（由 grid gap 露出 gutter 色形成） */
+html.app-embed .VPLocalNavOutlineDropdown .items {
+  gap: 0;
+}
