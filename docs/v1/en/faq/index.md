@@ -169,15 +169,29 @@ Features available to all users include: quick entry and cloud sync.
 
 Free users can store up to **300** bills in total; members have no limit.
 
+### Q: Why is the free plan limited to 300 bills?
+
+**A:** The 300-bill allowance (counted across all ledgers) is not a hidden paywall. There are two reasons for it:
+
+- **To keep the free plan viable long term**: Koala is built and maintained by one person, and fixed costs such as the server, the domain, and the Apple Developer Program fee have to be paid every year. Membership is what covers them. With no limit at all, those costs would have to be carried by a small number of paying users indefinitely.
+- **Because the allowance already lasts a while**: at one bill a day, 300 bills is roughly a year — enough to go through recording, categories, statistics, and bill import before deciding whether to subscribe. If you record frequently, you may reach it in a month or two.
+
+After you hit the limit, you simply can’t add new bills; existing bills and statistics stay available and your data is not lost. Opening a membership removes the limit immediately and does not affect existing bills.
+
 ### Q: How do I subscribe to a membership or restore a purchase?
 
-**A:** Go to the Settings page and tap the user card at the top to open the membership page (you need to sign in first if you haven’t). Membership is offered as annual or monthly subscriptions; pricing is subject to what the App Store shows. After switching devices or reinstalling, you can tap “Restore Purchases” in the top-right corner of the membership page (subject to the App Store subscription status).
+**A:** Go to the Settings page and tap the user card at the top to open the membership page (you need to sign in first if you haven’t). Membership is available as a monthly subscription, an annual subscription, or a Lifetime membership (one-time purchase); pricing is subject to what the App Store shows. After switching devices or reinstalling, you can tap “Restore Purchases” in the top-right corner of the membership page (subject to the purchase/subscription status in the App Store).
 
-### Q: Why isn’t Koala offered as a one-time purchase?
+### Q: Koala offers both subscriptions and a Lifetime membership. Which should I choose?
 
-**A:** Because I want Koala to be a long-term product that keeps improving, not a one-off transaction.
+**A:** Both grant the same benefits; only the payment model differs:
 
-A membership model supports sustainable development: ongoing bug fixes, experience improvements, and continuous adaptation to OS updates and new devices, plus long-term investment in capabilities like sync, data safety, and performance. That way, you get an app that keeps getting better over time, instead of risking slow updates and unsustainable maintenance after a buyout.
+- **Monthly / annual subscription**: start with a small payment and use it for a while. It ends automatically if you don’t renew, and you can cancel anytime in the App Store under “Subscriptions”.
+- **Lifetime membership (one-time purchase)**: pay once and it stays valid long term — a good fit if you’re sure you’ll keep using Koala and don’t want to manage renewals.
+
+Pricing is subject to what the App Store shows; choose based on how long you expect to use it.
+
+Note: buying Lifetime **does not** cancel an existing subscription, and Apple does not refund subscription fees already charged. If you subscribed before, cancel the subscription in the App Store first.
 
 ## Feedback & Support
 
@@ -189,3 +203,5 @@ A membership model supports sustainable development: ongoing bug fixes, experien
 - File format (CSV/Excel) and exported time range
 - Screenshot of the error message (if any)
 - What you already tried (re-exporting, changing source, changing file, etc.)
+
+**Last updated**: November 2026
