@@ -173,8 +173,8 @@ Free users can store up to **300** bills in total; members have no limit.
 
 **A:** The 300-bill allowance (counted across all ledgers) is not a hidden paywall. There are two reasons for it:
 
-- **To keep the free plan viable long term**: Koala is built and maintained by one person, and fixed costs such as the server, the domain, and the Apple Developer Program fee have to be paid every year. Membership is what covers them. With no limit at all, those costs would have to be carried by a small number of paying users indefinitely.
-- **Because the allowance already lasts a while**: at one bill a day, 300 bills is roughly a year — enough to go through recording, categories, statistics, and bill import before deciding whether to subscribe. If you record frequently, you may reach it in a month or two.
+- **Costs are covered only by membership fees**: Koala is built and maintained by one person, and fixed costs such as the server, the domain, and the Apple Developer Program fee have to be paid every year. Membership fees are the only source of revenue.
+- **The allowance already lasts a while**: at one bill a day, 300 bills is roughly a year — enough to go through recording, categories, statistics, and bill import before deciding whether to subscribe. If you record frequently, you may reach it in a month or two.
 
 After you hit the limit, you simply can’t add new bills; existing bills and statistics stay available and your data is not lost. Opening a membership removes the limit immediately and does not affect existing bills.
 
