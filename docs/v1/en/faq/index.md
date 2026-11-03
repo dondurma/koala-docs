@@ -197,11 +197,20 @@ If you already have a monthly or annual subscription, buying Lifetime does **not
 
 ### Q: What should I include when reporting an issue?
 
-**A:** The more complete the information, the easier it is to troubleshoot. Recommended:
+**A:** Where to send it: **Settings → Help & Feedback → Contact Dev** (you can also email ruanweidev@163.com directly).
+
+Whatever the issue is, include these first — it makes troubleshooting much faster:
+
+- App version, device model, and OS version
+- The steps that led to the problem (ideally reproducible); screenshots or a screen recording help
+- What you expected vs. what actually happened
+
+If it’s about bill import, also include:
 
 - Import source (WeChat/Alipay/Pixiu/iCost/Template)
-- File format (CSV/Excel) and exported time range
-- Screenshot of the error message (if any)
-- What you already tried (re-exporting, changing source, changing file, etc.)
+- File format (CSV/Excel) and the exported time range
+- The error message (a screenshot if possible) and what you already tried (re-exporting, changing source, changing file)
+
+If it’s about sync, also mention whether you’re signed in and whether you use multiple devices.
 
 **Last updated**: November 2026
