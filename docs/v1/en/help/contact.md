@@ -20,6 +20,23 @@ If you have any questions or suggestions, feel free to reach out.
   </a>
 </div>
 
+## Reach Me Directly
+
+Koala is built and maintained by one person. I can’t reply to you through App Store ratings and reviews, so problems can end up unresolved — if any of the following happens, please contact me directly through the email or social account above:
+
+- Data looks wrong, sync gets stuck, or bill import fails
+- Sign-in, membership, or purchase restore problems
+- Something you want to complain about, or a flow that just feels awkward
+
+## What to Include
+
+- Device model and OS version
+- App version
+- Steps that led to the problem (screenshots or a screen recording help)
+- For sync issues, whether you’re signed in and using multiple devices
+
+I read every email and message. Replies may not be fast, but nothing gets dropped — if you hear nothing for a long time, send another message; it most likely slipped past me.
+
 <style scoped>
 .contact-cards {
   display: flex;
@@ -70,3 +87,5 @@ html.kraft.retro-font .contact-card {
   text-align: right;
 }
 </style>
+
+**Last updated**: November 2026
