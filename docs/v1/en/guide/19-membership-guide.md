@@ -46,7 +46,7 @@ With a membership, you can unlock:
 
 > 💡 **Tip**: Membership pricing is subject to what the App Store actually shows and charges; an annual subscription usually shows an equivalent “per month” amount.
 
-> ⚠️ **Before buying Lifetime**: a Lifetime membership does not cancel an existing subscription, and Apple does not refund subscription fees already charged. If you subscribed before, cancel the subscription under **“Settings → Apple ID → Subscriptions”** first.
+> ⚠️ **Only if you already have a subscription**: if you’re currently on a monthly or annual subscription, buying Lifetime does not cancel it, and Apple does not refund fees already paid. Cancel it first under **“Settings → Apple ID → Subscriptions”**; otherwise it keeps renewing when the paid period ends. If you’ve never subscribed, there’s nothing to cancel.
 
 ### Restore Purchases
 
@@ -71,7 +71,7 @@ See the [Membership Service Agreement](../legal/membership) for the detailed ter
 
 Both grant the same benefits; only the payment model differs. A monthly or annual subscription is a good fit if you want to try it for a while and cancel anytime; a Lifetime membership is paid once and stays valid long term, for people who know they’ll keep using it and don’t want to manage renewals. Pricing is subject to what the App Store shows.
 
-Note: buying Lifetime does not cancel an existing subscription and does not refund subscription fees already charged. Cancel the subscription in the App Store first.
+Note: this applies only if you already have a subscription. Buying Lifetime does not cancel it and does not refund fees already paid — cancel the subscription in the App Store first; otherwise it keeps renewing when the paid period ends. If you’ve never subscribed, there’s nothing to cancel.
 
 ### Q2: What are the limitations for free users?
 

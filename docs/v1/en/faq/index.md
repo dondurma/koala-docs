@@ -191,7 +191,7 @@ After you hit the limit, you simply can’t add new bills; existing bills and st
 
 Pricing is subject to what the App Store shows; choose based on how long you expect to use it.
 
-Note: buying Lifetime **does not** cancel an existing subscription, and Apple does not refund subscription fees already charged. If you subscribed before, cancel the subscription in the App Store first.
+If you already have a monthly or annual subscription, buying Lifetime does **not** cancel that subscription, and Apple does not refund subscription fees already charged. Cancel it first in the App Store under “Subscriptions”; otherwise it keeps renewing when the paid period ends. If you’ve never subscribed, there’s nothing to cancel — just buy Lifetime directly.
 
 ## Feedback & Support
 
