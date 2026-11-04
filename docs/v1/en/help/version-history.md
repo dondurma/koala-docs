@@ -2,6 +2,23 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-11-03 v1.1.4 (37)
+
+### Added
+
+1. A new Message Center in Settings: when announcements are updated, the icon shows a red dot — tap it to read what's new.
+2. After your 100th bill or a successful import, the app may invite you to rate it on the App Store at a good moment.
+3. When a non-member taps a members-only feature, an explanation dialog comes up first — the membership page only opens after tapping "Learn about membership," so a single tap won't take you there.
+4. Help pages opened inside the app no longer repeat the website's top navigation, so reading is cleaner.
+
+### Fixed
+
+1. Refunding the same bill twice now records it only once instead of double-counting.
+2. Refunds now stop you early on already-refunded bills, a zero amount, or an amount above the original bill — no more filling everything in just to fail.
+3. After you dismiss the multi-currency membership prompt, you no longer get a false "currency update failed" message.
+4. With the Kraft Paper theme, turning off the retro font now restores the normal switch style instead of retro brackets everywhere.
+5. The success count after importing bills is now accurate: skipped records are no longer counted as imported.
+
 ## 2026-10-28 v1.1.3 (36)
 
 ### Added
