@@ -105,6 +105,20 @@ export function detectLang(): string {
   }
 }
 
+/**
+ * 画布底色（首屏防闪用）。
+ *
+ * 与 `styles/kraft.css` 的 `html.kraft { --vp-c-bg }` 及 VitePress 默认的
+ * `:root`(#ffffff) / `.dark`(#1b1b1f) 同源——App 或文档站改色时三处需同步。
+ * 单独维护的原因：样式表是 114 KB 的外部文件，首屏脚本执行时它还没到，
+ * 此时 `<html>` 没有任何底色声明，WebKit 会按系统深浅先猜一帧（白/黑）。
+ */
+const SURFACE_BG: Record<Appearance, string> = {
+  light: '#ffffff',
+  dark: '#1b1b1f',
+  kraft: '#d6c3a9',
+}
+
 /** 浏览器侧：给 <html> 落类名（kraft/light/dark + retro-font）与语言标记 */
 export function applyAppearance(r: ResolvedAppearance): void {
   if (typeof document === 'undefined') return
@@ -112,6 +126,10 @@ export function applyAppearance(r: ResolvedAppearance): void {
   el.classList.toggle('dark', r.appearance === 'dark')
   el.classList.toggle('kraft', r.appearance === 'kraft')
   el.classList.toggle('retro-font', r.font === 'retro')
+  // ruanwei 2026-11-06 同步声明配色方案与画布底色：避免切换主题后内联色残留，
+  // 也保证首屏脚本与运行时写入一致（两处都改才不会出现"切主题后底色不跟"）。
+  el.style.colorScheme = r.appearance === 'dark' ? 'dark' : 'light'
+  el.style.backgroundColor = SURFACE_BG[r.appearance]
   el.setAttribute(LANG_ATTR, detectLang())
 }
 
@@ -221,6 +239,11 @@ export const HEAD_SCRIPT = `(function(){
   if(at==='dark')e.classList.add('dark');
   if(at==='kraft')e.classList.add('kraft');
   if(af==='retro')e.classList.add('retro-font');
+  // ruanwei 2026-11-06 在样式表到达前就声明配色方案与画布底色：
+  // colorScheme 阻止 WebKit 按系统深浅猜一帧深色画布，backgroundColor 让第一帧即为最终底色。
+  // 色值与 SURFACE_BG / styles/kraft.css 同源，改色需同步。
+  e.style.colorScheme=(at==='dark')?'dark':'light';
+  e.style.backgroundColor=(at==='kraft')?'#d6c3a9':((at==='dark')?'#1b1b1f':'#ffffff');
   var m=location.pathname.match(/\\/v1\\/(zh-HK|zh|en|ja|ko)\\//);
   e.setAttribute('${LANG_ATTR}', m?m[1]:'zh');
 })()`
