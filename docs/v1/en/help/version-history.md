@@ -2,6 +2,22 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-11-14 v1.1.5 (38)
+
+### Added
+
+1. Refunds can now be partial and repeated: the refund screen shows how much has been refunded and how much is left, and the original bill is marked as partially, fully, or over-refunded.
+2. When refunding, you can now choose a different account — the original bill and its refund no longer have to sit in the same account.
+
+### Fixed
+
+1. Membership now unlocks properly after redeeming an offer code or purchasing on devices where availability checks previously failed.
+2. Deleting a bill or an account no longer leaves related refund or reimbursement entries behind, and balances are no longer overstated.
+3. Split bills keep their parent-child link after switching devices or reinstalling, and deleting the child bills no longer leaves the parent behind.
+4. The read-only prompt for refunded or reimbursed bills now appears reliably, and reimbursement labels no longer disappear when the entry falls on another day or account.
+5. Fixed a crash in the iOS widget on some system versions.
+6. The "Telephone" icon label now displays correctly.
+
 ## 2026-11-03 v1.1.4 (37)
 
 ### Added
