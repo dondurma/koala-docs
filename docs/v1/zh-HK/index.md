@@ -95,8 +95,8 @@
     <div :class="$style.desc">透過輔助觸控觸發自動記帳</div>
   </a>
   <a :class="$style.card" href="./guide/15-action-button-guide">
-    <div :class="$style.title">操作按鈕教學</div>
-    <div :class="$style.desc">透過操作按鈕觸發自動記帳</div>
+    <div :class="$style.title">動作按鈕教學</div>
+    <div :class="$style.desc">透過動作按鈕觸發自動記帳</div>
   </a>
 </div>
 
