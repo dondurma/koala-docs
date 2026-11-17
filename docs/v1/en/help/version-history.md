@@ -2,6 +2,16 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-11-17 v1.2.0 (39)
+
+### Fixed
+
+1. A split bill syncing to another device no longer deducts the original amount from your balance twice.
+2. Upgrading from a very old version no longer leaves you with no ledgers or an empty-looking ledger.
+3. Recording with a Shortcut while the app isn't running in the background now opens the entry sheet on the first try.
+4. iOS 27 renamed Accessibility in Settings, so the Shortcut setup steps now match the new name.
+5. Hong Kong Traditional Chinese now uses local wording such as "設定", "輔助使用" and "捷徑".
+
 ## 2026-11-14 v1.1.5 (38)
 
 ### Added
