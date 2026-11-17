@@ -23,7 +23,7 @@ export default defineConfig({
     ],
     footer: {
       message:
-        '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer" style="color: var(--vp-c-brand-1); text-decoration: none; font-size: 12px;">浙ICP备2026031826号-1A</a> · <a href="/fonts/licenses/FONTS.txt" target="_blank" rel="noreferrer" style="color: var(--vp-c-text-3); text-decoration: none; font-size: 12px;">Font Licenses</a>',
+        '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer" style="color: var(--vp-c-brand-1); text-decoration: none; font-size: 12px;">浙ICP备2026031826号-3</a> · <a href="/fonts/licenses/FONTS.txt" target="_blank" rel="noreferrer" style="color: var(--vp-c-text-3); text-decoration: none; font-size: 12px;">Font Licenses</a>',
     },
   },
 })
