@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4706e2c8f89b131c",
+        "id": "3639eb8c4257ba71",
         "type": "tabs",
         "children": [
           {
-            "id": "aa1fb340a74e8301",
+            "id": "1ef57942218ff8e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/v1/zh-HK/help/contact.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "contact"
+              "title": "新标签页"
             }
           }
         ]
@@ -55,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://www.instagram.com/shiyualro/",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,8 +75,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,8 +181,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "aa1fb340a74e8301",
+  "active": "9e88c927aae3537b",
   "lastOpenFiles": [
+    "docs/v1/zh-HK/help/contact.md",
     "docs/v1/ko/help/wechat-official-account.md",
     "docs/v1/ja/help/wechat-official-account.md",
     "docs/v1/en/help/wechat-official-account.md",
@@ -217,7 +213,6 @@
     "docs/v1/zh/guide/18-bill-export-guide.md",
     "docs/v1/zh/guide/19-membership-guide.md",
     "docs/v1/zh/guide/16-mood-guide.md",
-    "docs/v1/zh/guide/17-chart-and-share-guide.md",
-    "docs/v1/en/help/version-history.md"
+    "docs/v1/zh/guide/17-chart-and-share-guide.md"
   ]
 }
