@@ -17,6 +17,7 @@
 - [轻敲手机背面教程](./13-back-tap-guide)
 - [辅助小白点教程](./14-assistive-touch-guide)
 - [操作按钮教程](./15-action-button-guide)
+- [预算管理说明](./20-budget-guide)
 - [心情打卡说明](./16-mood-guide)
 - [统计与分享说明](./17-chart-and-share-guide)
 - [账单导出说明](./18-bill-export-guide)

@@ -17,6 +17,7 @@
 - [背面タップガイド](./13-back-tap-guide)
 - [AssistiveTouchガイド](./14-assistive-touch-guide)
 - [アクションボタンガイド](./15-action-button-guide)
+- [予算管理ガイド](./20-budget-guide)
 - [気分記録ガイド](./16-mood-guide)
 - [統計と共有ガイド](./17-chart-and-share-guide)
 - [帳簿エクスポートガイド](./18-bill-export-guide)

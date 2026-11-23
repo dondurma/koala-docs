@@ -2,6 +2,25 @@
 
 > This page records what’s new in each Koala release and is maintained in reverse chronological order (latest first).
 
+## 2026-11-23 v1.2.1 (40)
+
+### Added
+
+1. Budgets are here: monthly and category budgets, a progress bar on Overview you can tap to open that month, carry-over and overspend deduction, and customizable tier colors, and tapping a category budget shows that category's bills for the month. A membership feature.
+2. Budgets sync across your devices with your account, so a new phone picks up where you left off.
+3. A new "Business Trip" ledger with income and expense categories preset for travel.
+4. Long-press to reorder subcategories in Category Management and accounts on the Assets page — the record screen follows the new order.
+5. The app now tells you once when a new version is on the App Store, with a one-tap link to update.
+6. A new "Our other apps" entry in Settings.
+
+### Fixed
+
+1. The income and expense arrows on the Overview page pointed the wrong way — fixed.
+2. Tapping a color in the brand-color picker did nothing; that's fixed. The four color pickers (brand, mood, income/expense, budget) now share one swatch style.
+3. Deleting a category no longer leaves a nameless budget row behind.
+4. The budget progress bar now fills the full row, and category amounts are right-aligned.
+5. Budget changes now sync automatically after reopening the app, returning to the foreground, or while you stay on Overview — no more tapping sync.
+
 ## 2026-11-17 v1.2.0 (39)
 
 ### Fixed

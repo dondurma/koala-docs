@@ -13,6 +13,7 @@ With a membership, you can unlock:
 - **Bill export**: export bills as CSV
 - **Bill splitting**: split one bill into multiple sub-bills
 - **Scheduled accounting**: automatically generate bills on a recurring schedule
+- **Budgets**: set a monthly total and category budgets, with a progress bar on Overview
 - **Unlimited entries**: no free-tier bill limit
 
 **Quick entry and cloud sync** are available to all users — no membership required.
@@ -31,6 +32,7 @@ With a membership, you can unlock:
 | Refund | ✅ | ❌ |
 | Bill filter | ✅ | ❌ |
 | Scheduled accounting | ✅ | ❌ |
+| Budgets | ✅ | ❌ |
 | Bill limit | Unlimited | 300 bills |
 
 > 📝 Free users can store up to **300** bills in total (across all ledgers); once you reach the limit, you need a membership to keep recording.
