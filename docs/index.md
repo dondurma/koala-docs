@@ -1,147 +1,29 @@
-# Koala Docs
-
-本页面用于快速浏览考拉记账在线文档。你可以通过右上角导航切换语言版本。
-
-## 下载 App
+# 考拉记账 · 在线文档
 
 <div :class="$style.grid">
-  <a :class="$style.card" href="/v1/zh/help/download-app">
-    <div :class="$style.title">下载考拉记账</div>
-    <div :class="$style.desc">扫码前往 App Store 下载</div>
+  <a :class="$style.card" href="/v1/zh/">
+    <div :class="$style.title">简体中文</div>
+    <div :class="$style.desc">使用指南、常见问题与隐私政策</div>
+  </a>
+  <a :class="$style.card" href="/v1/zh-HK/">
+    <div :class="$style.title">繁體中文</div>
+    <div :class="$style.desc">使用指南、常見問題與隱私政策</div>
+  </a>
+  <a :class="$style.card" href="/v1/en/">
+    <div :class="$style.title">English</div>
+    <div :class="$style.desc">User guides, FAQ and privacy policy</div>
+  </a>
+  <a :class="$style.card" href="/v1/ja/">
+    <div :class="$style.title">日本語</div>
+    <div :class="$style.desc">利用ガイド・よくある質問・プライバシーポリシー</div>
+  </a>
+  <a :class="$style.card" href="/v1/ko/">
+    <div :class="$style.title">한국어</div>
+    <div :class="$style.desc">사용 가이드, 자주 묻는 질문, 개인정보 처리방침</div>
   </a>
 </div>
 
-## 用户指南
-
-### 账单导入
-
-<div :class="$style.grid">
-  <a :class="$style.card" href="/v1/zh/guide/01-template-bill-import-guide">
-    <div :class="$style.title">模板账单导入指南</div>
-    <div :class="$style.desc">适用于 CSV 模板文件</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/02-wechat-bill-import-guide">
-    <div :class="$style.title">微信账单导入教程</div>
-    <div :class="$style.desc">支持 CSV / Excel</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/03-alipay-bill-import-guide">
-    <div :class="$style.title">支付宝账单导入教程</div>
-    <div :class="$style.desc">适用于 CSV</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/07-pixiu-bill-import-guide">
-    <div :class="$style.title">貔貅账单导入指南</div>
-    <div :class="$style.desc">适用于 CSV</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/08-icost-bill-import-guide">
-    <div :class="$style.title">iCost 账单导入指南</div>
-    <div :class="$style.desc">支持 Excel（不支持 CSV）</div>
-  </a>
-</div>
-
-### 功能说明
-
-<div :class="$style.grid">
-  <a :class="$style.card" href="/v1/zh/guide/04-multi-ledger-guide">
-    <div :class="$style.title">多账本功能说明</div>
-    <div :class="$style.desc">多个账本的创建、切换与隔离</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/05-exchange-rate-guide">
-    <div :class="$style.title">汇率切换说明</div>
-    <div :class="$style.desc">本位币与汇率展示口径</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/06-cloud-backup-guide">
-    <div :class="$style.title">云备份说明</div>
-    <div :class="$style.desc">登录、同步与数据恢复</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/09-bill-split-guide">
-    <div :class="$style.title">账单拆分说明</div>
-    <div :class="$style.desc">一笔账单拆成多笔子账单</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/10-bill-refund-guide">
-    <div :class="$style.title">账单退款说明</div>
-    <div :class="$style.desc">用负数记录抵消统计影响</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/11-bill-reimbursement-guide">
-    <div :class="$style.title">账单报销说明</div>
-    <div :class="$style.desc">支出报销与报销入账</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/12-scheduled-accounting-guide">
-    <div :class="$style.title">定时记账说明</div>
-    <div :class="$style.desc">固定收支自动生成账单</div>
-  </a>
-</div>
-
-### 自动记账
-
-<div :class="$style.grid">
-  <a :class="$style.card" href="/v1/zh/guide/13-back-tap-guide">
-    <div :class="$style.title">轻敲手机背面教程</div>
-    <div :class="$style.desc">轻敲背面触发自动记账</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/14-assistive-touch-guide">
-    <div :class="$style.title">辅助小白点教程</div>
-    <div :class="$style.desc">通过辅助触控触发自动记账</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/guide/15-action-button-guide">
-    <div :class="$style.title">操作按钮教程</div>
-    <div :class="$style.desc">通过操作按钮触发自动记账</div>
-  </a>
-</div>
-
-## 常见问题
-
-<div :class="$style.grid">
-  <a :class="$style.card" href="/v1/zh/faq/">
-    <div :class="$style.title">常见问题（FAQ）</div>
-    <div :class="$style.desc">导入、多账本、汇率、云同步等</div>
-  </a>
-</div>
-
-## 法律条款
-
-<div :class="$style.grid">
-  <a :class="$style.card" href="/v1/zh/legal/privacy">
-    <div :class="$style.title">隐私政策</div>
-    <div :class="$style.desc">个人信息处理与保护说明</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/legal/terms">
-    <div :class="$style.title">用户协议</div>
-    <div :class="$style.desc">使用条款与服务约定</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/legal/membership">
-    <div :class="$style.title">会员服务协议</div>
-    <div :class="$style.desc">会员权益与订阅说明</div>
-  </a>
-</div>
-
-## 帮助
-
-<div :class="$style.grid">
-  <a :class="$style.card" href="/v1/zh/help/announcements">
-    <div :class="$style.title">公告</div>
-    <div :class="$style.desc">产品公告与重要通知</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/help/account-deletion">
-    <div :class="$style.title">注销账户说明</div>
-    <div :class="$style.desc">注销会清空云端与本机数据</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/help/version-history">
-    <div :class="$style.title">版本记录</div>
-    <div :class="$style.desc">新增功能与问题修复</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/help/contact">
-    <div :class="$style.title">联系我</div>
-    <div :class="$style.desc">邮箱与社交媒体联系方式</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/help/icon-request">
-    <div :class="$style.title">找不到合适的icon？</div>
-    <div :class="$style.desc">想要的图标可以邮件告诉我</div>
-  </a>
-  <a :class="$style.card" href="/v1/zh/help/category-keywords">
-    <div :class="$style.title">图标与关键词说明</div>
-    <div :class="$style.desc">图标反馈与关键词使用说明</div>
-  </a>
-</div>
+> 进入对应语言版本后，可在左上角「用户指南 / 常见问题 / 隐私政策」中浏览全部内容。
 
 <style module>
 .grid {
