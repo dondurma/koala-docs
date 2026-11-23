@@ -65,6 +65,10 @@
     <div :class="$style.title">Scheduled Accounting</div>
     <div :class="$style.desc">Auto-generate recurring bills</div>
   </a>
+  <a :class="$style.card" href="./guide/20-budget-guide">
+    <div :class="$style.title">Budget Guide</div>
+    <div :class="$style.desc">Member feature: monthly budget, category budgets & carry-over</div>
+  </a>
   <a :class="$style.card" href="./guide/16-mood-guide">
     <div :class="$style.title">Mood Check-in Guide</div>
     <div :class="$style.desc">Record your daily mood from the Overview page</div>

@@ -65,6 +65,10 @@
     <div :class="$style.title">定时记账说明</div>
     <div :class="$style.desc">固定收支自动生成账单</div>
   </a>
+  <a :class="$style.card" href="./guide/20-budget-guide">
+    <div :class="$style.title">预算管理说明</div>
+    <div :class="$style.desc">会员功能：月预算、分类预算与结转</div>
+  </a>
   <a :class="$style.card" href="./guide/16-mood-guide">
     <div :class="$style.title">心情打卡说明</div>
     <div :class="$style.desc">在概览页记录每天的心情</div>

@@ -65,6 +65,10 @@
     <div :class="$style.title">定期記帳</div>
     <div :class="$style.desc">定期的な収支を自動で記録</div>
   </a>
+  <a :class="$style.card" href="./guide/20-budget-guide">
+    <div :class="$style.title">予算管理ガイド</div>
+    <div :class="$style.desc">会員機能：月予算・カテゴリ予算・繰り越し</div>
+  </a>
   <a :class="$style.card" href="./guide/16-mood-guide">
     <div :class="$style.title">気分記録ガイド</div>
     <div :class="$style.desc">概観ページで毎日の気分を記録</div>

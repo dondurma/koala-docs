@@ -65,6 +65,10 @@
     <div :class="$style.title">정기 기장 안내</div>
     <div :class="$style.desc">반복 수입/지출 자동 기록</div>
   </a>
+  <a :class="$style.card" href="./guide/20-budget-guide">
+    <div :class="$style.title">예산 관리 안내</div>
+    <div :class="$style.desc">회원 기능: 월 예산, 카테고리 예산 및 이월</div>
+  </a>
   <a :class="$style.card" href="./guide/16-mood-guide">
     <div :class="$style.title">기분 기록 안내</div>
     <div :class="$style.desc">개요 화면에서 매일의 기분 기록</div>
