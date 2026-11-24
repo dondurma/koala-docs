@@ -17,6 +17,7 @@ After you hit the limit, you simply can’t add new bills; existing bills and st
 
 **A:** Features that currently require a membership include:
 
+- Budget management (monthly budget, category budgets, and carry-over)
 - Multiple ledgers (creating and managing more than one ledger)
 - Multi-currency (switching/using multiple currencies when recording)
 - Bill export
